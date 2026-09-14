@@ -52,7 +52,9 @@ _SUBJECT_KINDS = frozenset({"requirement", "guardrail"})
 _ANCHOR_KINDS = frozenset(
     {"structural_change", "change_relation", "changed_file"}
 )
-_DIRECT_ASSOCIATIONS = frozenset({"provided_association", "exact_identifier"})
+RG_DIRECT_ATTEMPT_ASSOCIATIONS = frozenset(
+    {"provided_association", "exact_identifier"}
+)
 _DIRECT_RELATIONS = frozenset(
     {"implements", "constrains", "removes", "directly_verifies"}
 )
@@ -710,7 +712,7 @@ def compare_rg_retrieval(
             candidate.candidate_id
             for candidate in candidates
             if retrieval_by_candidate[candidate.candidate_id].association
-            in _DIRECT_ASSOCIATIONS
+            in RG_DIRECT_ATTEMPT_ASSOCIATIONS
         }
         focus_deltas = {
             "retrieval_against_semantic_direct": _delta(
