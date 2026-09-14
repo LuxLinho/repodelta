@@ -1,0 +1,1893 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "C:G1:E:structural_change:44a2370ce77a6e66f8e7",
+      "declared_calibration": {
+        "note": "Test helper modification supports the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "subject_id": "G1"
+    },
+    {
+      "candidate_id": "C:G1:E:structural_change:4fbcf96b02d19017c2c9",
+      "declared_calibration": {
+        "note": "Test modification exercises the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "subject_id": "G1"
+    },
+    {
+      "candidate_id": "C:G1:E:structural_change:5d2be31cc60dea3d2f3b",
+      "declared_calibration": {
+        "note": "Test addition verifies the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "subject_id": "G1"
+    },
+    {
+      "candidate_id": "C:G1:E:structural_change:7c4162e02e623fea377f",
+      "declared_calibration": {
+        "note": "Test modification verifies the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
+      "subject_id": "G1"
+    },
+    {
+      "candidate_id": "C:G1:E:structural_change:9ff44326982c1acafe85",
+      "declared_calibration": {
+        "note": "The removed relations parameter changes seed-derivation plumbing, not Codegraph collection/traversal budgets/changed-anchor association/assessment/LLM/layout; it does not directly enforce this guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "unrelated"
+      },
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
+      "subject_id": "G1"
+    },
+    {
+      "candidate_id": "C:G1:E:structural_change:d0cf036a1010c1207bc5",
+      "declared_calibration": {
+        "note": "The role-only seed derivation is unrelated to preserving Codegraph collection, traversal budgets, changed-anchor association, assessment, LLM behavior, or graph layout.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "unrelated"
+      },
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "subject_id": "G1"
+    },
+    {
+      "candidate_id": "C:G2:E:structural_change:44a2370ce77a6e66f8e7",
+      "declared_calibration": {
+        "note": "Test helper modification supports the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "subject_id": "G2"
+    },
+    {
+      "candidate_id": "C:G2:E:structural_change:4fbcf96b02d19017c2c9",
+      "declared_calibration": {
+        "note": "Test modification exercises the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "subject_id": "G2"
+    },
+    {
+      "candidate_id": "C:G2:E:structural_change:5d2be31cc60dea3d2f3b",
+      "declared_calibration": {
+        "note": "The added test directly asserts _canonical_backbone_seed_node_ids excludes the inserted intermediate node while retaining changed anchors, directly verifying the guardrail against promoting support nodes.",
+        "proof_basis": "bounded_evidence",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1473-L1514"
+        ],
+        "semantic_relation": "directly_verifies"
+      },
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieval_miss"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "subject_id": "G2"
+    },
+    {
+      "candidate_id": "C:G2:E:structural_change:7c4162e02e623fea377f",
+      "declared_calibration": {
+        "note": "The modified projection test asserts test_anchor_one and test_anchor_two are included while variable \u00b7 context stays excluded, directly verifying that reachable support/context is not promoted.",
+        "proof_basis": "bounded_evidence",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L766-L1171"
+        ],
+        "semantic_relation": "directly_verifies"
+      },
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieval_miss"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
+      "subject_id": "G2"
+    },
+    {
+      "candidate_id": "C:G2:E:structural_change:9ff44326982c1acafe85",
+      "declared_calibration": {
+        "note": "Removing the relations parameter is a supporting API change; the role-only seed function is what directly prevents promotion, so this relation is contextual.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
+      "subject_id": "G2"
+    },
+    {
+      "candidate_id": "C:G2:E:structural_change:d0cf036a1010c1207bc5",
+      "declared_calibration": {
+        "note": "Changes seed derivation to filter solely on node role, not evidence annotation.",
+        "proof_basis": "deterministic_mapping",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L435-L457"
+        ],
+        "semantic_relation": "constrains"
+      },
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "retrieval_miss"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "subject_id": "G2"
+    },
+    {
+      "candidate_id": "C:G3:E:structural_change:44a2370ce77a6e66f8e7",
+      "declared_calibration": {
+        "note": "Test helper modification supports the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "subject_id": "G3"
+    },
+    {
+      "candidate_id": "C:G3:E:structural_change:4fbcf96b02d19017c2c9",
+      "declared_calibration": {
+        "note": "Test modification exercises the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "subject_id": "G3"
+    },
+    {
+      "candidate_id": "C:G3:E:structural_change:5d2be31cc60dea3d2f3b",
+      "declared_calibration": {
+        "note": "Test addition verifies the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "subject_id": "G3"
+    },
+    {
+      "candidate_id": "C:G3:E:structural_change:7c4162e02e623fea377f",
+      "declared_calibration": {
+        "note": "Test modification verifies the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
+      "subject_id": "G3"
+    },
+    {
+      "candidate_id": "C:G3:E:structural_change:9ff44326982c1acafe85",
+      "declared_calibration": {
+        "note": "The change does not introduce a second backbone producer or renderer-side membership decision, nor does it directly enforce that prohibition.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "unrelated"
+      },
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
+      "subject_id": "G3"
+    },
+    {
+      "candidate_id": "C:G3:E:structural_change:d0cf036a1010c1207bc5",
+      "declared_calibration": {
+        "note": "Altering the seed filter does not directly guard against introducing a second backbone producer or renderer-side membership decision.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "unrelated"
+      },
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "claim_bridge",
+        "reasons": [
+          {
+            "detail": "An associated PR claim has a deterministic identifier or discriminative phrase relation to this changed anchor.",
+            "kind": "claim_bridge",
+            "matched_terms": [
+              "backbone",
+              "seed"
+            ]
+          }
+        ],
+        "relation_id": "PR:29400860b268293064ee",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "subject_id": "G3"
+    },
+    {
+      "candidate_id": "C:G4:E:structural_change:44a2370ce77a6e66f8e7",
+      "declared_calibration": {
+        "note": "Test helper modification supports the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "subject_id": "G4"
+    },
+    {
+      "candidate_id": "C:G4:E:structural_change:4fbcf96b02d19017c2c9",
+      "declared_calibration": {
+        "note": "Test modification exercises the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "subject_id": "G4"
+    },
+    {
+      "candidate_id": "C:G4:E:structural_change:5d2be31cc60dea3d2f3b",
+      "declared_calibration": {
+        "note": "Test addition verifies the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "subject_id": "G4"
+    },
+    {
+      "candidate_id": "C:G4:E:structural_change:7c4162e02e623fea377f",
+      "declared_calibration": {
+        "note": "Test modification verifies the new behavior but does not directly enforce the guardrail.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
+      "subject_id": "G4"
+    },
+    {
+      "candidate_id": "C:G4:E:structural_change:9ff44326982c1acafe85",
+      "declared_calibration": {
+        "note": "The modified seed caller is outside the listed out-of-scope areas and does not directly constrain traversal convergence, LLM inference, assessment semantics, or layout.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "unrelated"
+      },
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
+      "subject_id": "G4"
+    },
+    {
+      "candidate_id": "C:G4:E:structural_change:d0cf036a1010c1207bc5",
+      "declared_calibration": {
+        "note": "The role-only seed derivation is unrelated to traversal convergence, support-path relevance, LLM inference, assessment semantics, and visual-layout redesign.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "unrelated"
+      },
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "subject_id": "G4"
+    },
+    {
+      "candidate_id": "C:R1:E:structural_change:44a2370ce77a6e66f8e7",
+      "declared_calibration": {
+        "note": "Test helper modification supports the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "evidence",
+              "primary",
+              "structural"
+            ]
+          }
+        ],
+        "relation_id": "PR:37c4b872d580245c1478",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "subject_id": "R1"
+    },
+    {
+      "candidate_id": "C:R1:E:structural_change:4fbcf96b02d19017c2c9",
+      "declared_calibration": {
+        "note": "Test modification exercises the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "backbone",
+              "direct",
+              "primary"
+            ]
+          }
+        ],
+        "relation_id": "PR:0d1da592a9c5ff9d324b",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "subject_id": "R1"
+    },
+    {
+      "candidate_id": "C:R1:E:structural_change:5d2be31cc60dea3d2f3b",
+      "declared_calibration": {
+        "note": "The seed test includes changed_anchor roles but omits focus-relative evidence annotations, so it does not directly verify that annotation category cannot affect membership.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "backbone",
+              "direct",
+              "primary"
+            ]
+          }
+        ],
+        "relation_id": "PR:57c956df4b714a7b26a8",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "subject_id": "R1"
+    },
+    {
+      "candidate_id": "C:R1:E:structural_change:7c4162e02e623fea377f",
+      "declared_calibration": {
+        "note": "The modified test gives test_anchor_one/two evidence_role=test_support and asserts they appear in backbone_node_ids and html, directly verifying membership regardless of test-support annotation.",
+        "proof_basis": "bounded_evidence",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L766-L1171"
+        ],
+        "semantic_relation": "directly_verifies"
+      },
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_direct",
+        "no_observed_direct_attempt"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "evidence",
+              "structural",
+              "support"
+            ]
+          }
+        ],
+        "relation_id": "PR:abb079d1efad751b24e2",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
+      "subject_id": "R1"
+    },
+    {
+      "candidate_id": "C:R1:E:structural_change:9ff44326982c1acafe85",
+      "declared_calibration": {
+        "note": "Removing relations from the caller is a supporting API change; the role-only seed logic in d0cf directly implements the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
+      "subject_id": "R1"
+    },
+    {
+      "candidate_id": "C:R1:E:structural_change:d0cf036a1010c1207bc5",
+      "declared_calibration": {
+        "note": "Changes seed derivation to filter solely on node role, so test-support anchors are included.",
+        "proof_basis": "deterministic_mapping",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L435-L457"
+        ],
+        "semantic_relation": "implements"
+      },
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "retrieved_semantic_direct",
+        "no_observed_direct_attempt"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "backbone",
+              "direct",
+              "selected",
+              "structural"
+            ]
+          }
+        ],
+        "relation_id": "PR:1aacf84ecfd6649bf87b",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "subject_id": "R1"
+    },
+    {
+      "candidate_id": "C:R2:E:structural_change:44a2370ce77a6e66f8e7",
+      "declared_calibration": {
+        "note": "Test helper modification supports the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "subject_id": "R2"
+    },
+    {
+      "candidate_id": "C:R2:E:structural_change:4fbcf96b02d19017c2c9",
+      "declared_calibration": {
+        "note": "Test modification exercises the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "backbone",
+              "focus"
+            ]
+          }
+        ],
+        "relation_id": "PR:2e34e8ec774dec9fe4b2",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "subject_id": "R2"
+    },
+    {
+      "candidate_id": "C:R2:E:structural_change:5d2be31cc60dea3d2f3b",
+      "declared_calibration": {
+        "note": "Seed test lacks evidence annotations, so it does not verify that annotations cannot add/remove/suppress membership.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "backbone",
+              "focus"
+            ]
+          }
+        ],
+        "relation_id": "PR:ebd9497d2ef2778480a3",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "subject_id": "R2"
+    },
+    {
+      "candidate_id": "C:R2:E:structural_change:7c4162e02e623fea377f",
+      "declared_calibration": {
+        "note": "Although test_support annotation is present and membership is asserted, the test does not directly verify annotation remains available for presentation or that primary/document support annotations cannot add/remove membership.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
+      "subject_id": "R2"
+    },
+    {
+      "candidate_id": "C:R2:E:structural_change:9ff44326982c1acafe85",
+      "declared_calibration": {
+        "note": "Removes the relations parameter from the seed API, so evidence annotation cannot affect membership.",
+        "proof_basis": "deterministic_mapping",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L57-L432"
+        ],
+        "semantic_relation": "implements"
+      },
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "retrieval_miss"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
+      "subject_id": "R2"
+    },
+    {
+      "candidate_id": "C:R2:E:structural_change:d0cf036a1010c1207bc5",
+      "declared_calibration": {
+        "note": "Changes seed derivation to filter solely on node role, not evidence annotation.",
+        "proof_basis": "deterministic_mapping",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L435-L457"
+        ],
+        "semantic_relation": "implements"
+      },
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "retrieved_semantic_direct",
+        "no_observed_direct_attempt"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "backbone"
+            ]
+          }
+        ],
+        "relation_id": "PR:95ecaa2ed8719b2f5f3c",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "subject_id": "R2"
+    },
+    {
+      "candidate_id": "C:R3:E:structural_change:44a2370ce77a6e66f8e7",
+      "declared_calibration": {
+        "note": "Test helper modification supports the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "subject_id": "R3"
+    },
+    {
+      "candidate_id": "C:R3:E:structural_change:4fbcf96b02d19017c2c9",
+      "declared_calibration": {
+        "note": "Test modification exercises the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "subject_id": "R3"
+    },
+    {
+      "candidate_id": "C:R3:E:structural_change:5d2be31cc60dea3d2f3b",
+      "declared_calibration": {
+        "note": "The added test drives one seed function with an R/G slice and a transformation group and asserts both produce expected seeds, directly verifying the shared contract.",
+        "proof_basis": "bounded_evidence",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1473-L1514"
+        ],
+        "semantic_relation": "directly_verifies"
+      },
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieval_miss"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "subject_id": "R3"
+    },
+    {
+      "candidate_id": "C:R3:E:structural_change:7c4162e02e623fea377f",
+      "declared_calibration": {
+        "note": "Test modification verifies the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
+      "subject_id": "R3"
+    },
+    {
+      "candidate_id": "C:R3:E:structural_change:9ff44326982c1acafe85",
+      "declared_calibration": {
+        "note": "Removing the relations parameter is a supporting plumbing change; it does not itself implement that the same contract applies to both subject families.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
+      "subject_id": "R3"
+    },
+    {
+      "candidate_id": "C:R3:E:structural_change:d0cf036a1010c1207bc5",
+      "declared_calibration": {
+        "note": "Changes seed derivation to filter solely on node role, applying the same rule to R/G and T/CC.",
+        "proof_basis": "deterministic_mapping",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L435-L457"
+        ],
+        "semantic_relation": "implements"
+      },
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "retrieval_miss"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "subject_id": "R3"
+    },
+    {
+      "candidate_id": "C:R4:E:structural_change:44a2370ce77a6e66f8e7",
+      "declared_calibration": {
+        "note": "Test helper modification supports the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "subject_id": "R4"
+    },
+    {
+      "candidate_id": "C:R4:E:structural_change:4fbcf96b02d19017c2c9",
+      "declared_calibration": {
+        "note": "Test modification exercises the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "backbone",
+              "canonical",
+              "context",
+              "include",
+              "intermediate"
+            ]
+          }
+        ],
+        "relation_id": "PR:8b15af7d5eafa90adf43",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "subject_id": "R4"
+    },
+    {
+      "candidate_id": "C:R4:E:structural_change:5d2be31cc60dea3d2f3b",
+      "declared_calibration": {
+        "note": "The test checks only intermediate exclusion, not retained-context or reachable support nodes, so it does not directly verify the whole compound requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "backbone",
+              "canonical",
+              "context",
+              "include",
+              "intermediate"
+            ]
+          }
+        ],
+        "relation_id": "PR:b8ad1961e49fed5173bf",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "subject_id": "R4"
+    },
+    {
+      "candidate_id": "C:R4:E:structural_change:7c4162e02e623fea377f",
+      "declared_calibration": {
+        "note": "The projection test checks intermediate/context exclusion but not retained-context or merely reachable support nodes comprehensively.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
+      "subject_id": "R4"
+    },
+    {
+      "candidate_id": "C:R4:E:structural_change:9ff44326982c1acafe85",
+      "declared_calibration": {
+        "note": "The caller change supports the role-only seed derivation but does not directly keep support nodes out; the seed function does.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
+      "subject_id": "R4"
+    },
+    {
+      "candidate_id": "C:R4:E:structural_change:d0cf036a1010c1207bc5",
+      "declared_calibration": {
+        "note": "Changes seed derivation to filter solely on node role, so intermediate nodes are not seeds.",
+        "proof_basis": "deterministic_mapping",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L435-L457"
+        ],
+        "semantic_relation": "implements"
+      },
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "retrieved_semantic_direct",
+        "no_observed_direct_attempt"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "backbone",
+              "canonical",
+              "nodes"
+            ]
+          }
+        ],
+        "relation_id": "PR:96e323515b714e39a56d",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "subject_id": "R4"
+    },
+    {
+      "candidate_id": "C:R5:E:structural_change:44a2370ce77a6e66f8e7",
+      "declared_calibration": {
+        "note": "Test helper modification supports the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "subject_id": "R5"
+    },
+    {
+      "candidate_id": "C:R5:E:structural_change:4fbcf96b02d19017c2c9",
+      "declared_calibration": {
+        "note": "Test modification exercises the new behavior but does not directly implement the requirement.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "direct"
+            ]
+          }
+        ],
+        "relation_id": "PR:a7ae7e4555da1f5e8770",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "subject_id": "R5"
+    },
+    {
+      "candidate_id": "C:R5:E:structural_change:5d2be31cc60dea3d2f3b",
+      "declared_calibration": {
+        "note": "The seed test includes a primary and test label but does not exercise the rendered graph or production/test retention together.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieved_semantic_noise"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "direct"
+            ]
+          }
+        ],
+        "relation_id": "PR:31115b9f5c0674655585",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "subject_id": "R5"
+    },
+    {
+      "candidate_id": "C:R5:E:structural_change:7c4162e02e623fea377f",
+      "declared_calibration": {
+        "note": "The modified graph test asserts production anchors and test_anchor_one/two are retained together in backbone_node_ids and html, directly verifying combined retention.",
+        "proof_basis": "bounded_evidence",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L766-L1171"
+        ],
+        "semantic_relation": "directly_verifies"
+      },
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "evidence_role": "test_support",
+      "mechanism_observations": [
+        "retrieval_miss"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
+      "subject_id": "R5"
+    },
+    {
+      "candidate_id": "C:R5:E:structural_change:9ff44326982c1acafe85",
+      "declared_calibration": {
+        "note": "Removing the relations parameter supports the role-only seed inclusion but does not directly retain production/test changes; the seed function and graph test do.",
+        "proof_basis": "none",
+        "proofability": "not_applicable",
+        "semantic_evidence_witnesses": [],
+        "semantic_relation": "contextual_support"
+      },
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "not_retrieved_non_direct"
+      ],
+      "observed_retrieval": {
+        "association": null,
+        "reasons": [],
+        "relation_id": null,
+        "state": "not_retrieved"
+      },
+      "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
+      "subject_id": "R5"
+    },
+    {
+      "candidate_id": "C:R5:E:structural_change:d0cf036a1010c1207bc5",
+      "declared_calibration": {
+        "note": "Changes seed derivation to filter solely on node role, so direct test anchors are included with production anchors.",
+        "proof_basis": "deterministic_mapping",
+        "proofability": "direct_capable",
+        "semantic_evidence_witnesses": [
+          "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L435-L457"
+        ],
+        "semantic_relation": "implements"
+      },
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "evidence_role": "primary",
+      "mechanism_observations": [
+        "retrieved_semantic_direct",
+        "no_observed_direct_attempt"
+      ],
+      "observed_retrieval": {
+        "association": "distinctive_phrase",
+        "reasons": [
+          {
+            "detail": "A review-discriminative term and at least one supporting term occur in both texts.",
+            "kind": "distinctive_phrase",
+            "matched_terms": [
+              "direct",
+              "selected"
+            ]
+          }
+        ],
+        "relation_id": "PR:14f96604e8ad458d1d3d",
+        "state": "selected"
+      },
+      "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "subject_id": "R5"
+    }
+  ],
+  "candidate_universe_digest": "6ee61bf0f516385acfce02172b1b2466a0ffb3a7cec58165e4fcc4b1c5a86502",
+  "classification": {
+    "causal_replay": false,
+    "kind": "declared_historical_calibration",
+    "production_changed": false,
+    "semantic_metrics": "not_emitted",
+    "semantic_reference": "not_verified"
+  },
+  "completion": {
+    "falsifier": "The hypothesis fails if a future isolated cross-PR evaluation shows that each pre-semantic association class maps to one semantic role, or if the new stage permits lexical association alone to create a direct admission.",
+    "hypothesis": "Insert an R/G semantic-relation stage after broad candidate retrieval and before direct admission. A distinctive phrase, claim bridge, or other lexical association remains candidate evidence; it cannot itself establish semantic-direct membership.",
+    "next_production_layer": "semantic_relation",
+    "state": "sufficient_evidence",
+    "why_not_other_layers": {
+      "candidate_retrieval": "Retrieval has declared-direct misses, but broad recall need not decide semantic role; those misses remain a separate follow-up.",
+      "final_admission": "The bounded observation contains no current direct attempts, so it cannot measure final-admission overreach or underreach.",
+      "proofability": "This input has declared direct-capable judgments but no typed production proof trace, so it cannot isolate proofability."
+    }
+  },
+  "counts": {
+    "candidate_count": 54,
+    "declared_insufficient": 0,
+    "declared_resolved_non_direct": 42,
+    "declared_semantic_direct": 12,
+    "observed_direct_attempts": 0,
+    "observed_retrieved": 15
+  },
+  "declared_calibration_authority": {
+    "proposal_digest": "",
+    "proposed_by": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer;deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+    "status": "proposed",
+    "system_under_test_isolated": false,
+    "verification_evidence": [],
+    "verification_method": "",
+    "verified_by": ""
+  },
+  "input_provenance": {
+    "candidate_universe": {
+      "path": "rg-candidate-universes/pr-208.json",
+      "sha256": "44e2676cf166f1913968f136427d056cee4c4ca1f84dd893bbf68bfff0e56877"
+    },
+    "frozen_review_design": {
+      "path": "rg-semantic-labeling-runs/pr-208.batch-001.manifest.json",
+      "sha256": "2b18c0f085ec42723d9c9dc89de4328d91d9bca25d9f8810ff34daf487ff0fd4"
+    },
+    "historical_declared_calibration": {
+      "path": "rg-semantic-proposals/pr-208.batch-001.ai-adjudicated.proposed.json",
+      "sha256": "9e55d0aebc69201a2fcaf6012ce98e8a843b69616879ba0ec8769caf2135b83d"
+    },
+    "historical_review_method": {
+      "kind": "source-evidence proposal followed by campaign-local AI adjudication",
+      "limitation": "The identities and execution contracts are preserved as provenance; they do not turn the proposal into a verified reference or prove independent error modes.",
+      "records": [
+        {
+          "authority_boundary": "This is a blind proposer output only. It is not a verified semantic reference, a semantic-correctness metric, a production association decision, or an assessment authority.",
+          "endpoint_class": "deepseek-openai-chat-completions",
+          "execution_contract": {
+            "max_tokens": 12000,
+            "model_configuration_sha256": "cc9ffc950b7979146a02abc9887666fee6af222add5c243b884b46a9fc374fd8",
+            "response_format": "json_object",
+            "store": false,
+            "temperature": 0,
+            "thinking": {
+              "type": "disabled"
+            }
+          },
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer",
+          "model": "deepseek-v4-flash",
+          "path": "rg-semantic-labeling-runs/pr-208.batch-001.proposer-run.json",
+          "provider": "DeepSeek",
+          "role": "proposer",
+          "sha256": "1152d1ae64eeb418488208207f279e3083bbc2e2ac2e60fe2d23012ad98965a2"
+        },
+        {
+          "authority_boundary": "This resolves the recorded proposer/verifier disagreements for this campaign batch only. It does not verify the reference, produce semantic FI/FE, change production association, or alter formal assessment.",
+          "endpoint_class": "deepseek-openai-compatible",
+          "execution_contract": {
+            "max_tokens": 16000,
+            "model_configuration_sha256": "1c6c1aa9f10c68c77418ebb6a420692a701559e448d7cd21a2aee2e3a4e74270",
+            "response_format": "json_object",
+            "store": false,
+            "stream": false,
+            "temperature": 0
+          },
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "model": "deepseek-v4-pro",
+          "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudicator-run.json",
+          "provider": "DeepSeek",
+          "role": "AI adjudicator",
+          "sha256": "3b3f29231811d4012ced6e29d88daa67d22e434be073ef0808cc152fdfd80d6b"
+        }
+      ]
+    },
+    "observed_retrieval": {
+      "path": "rg-retrieval-observations/pr-208.json",
+      "sha256": "23cdb982ef6a14e38f9b9749b91a50b41ede446f3033c73d3b9f47913669b04d"
+    },
+    "review_design_boundary": "The #309 manifest selected all 54 candidate IDs before labeling. Its proposal/adjudication output remains historical proposed calibration evidence and is not upgraded to a verified semantic reference here."
+  },
+  "limits": {
+    "authority": "The declared judgments are historical proposed calibration evidence from #309, not a protocol-verified semantic reference.",
+    "inference": "The nominated layer is an architecture hypothesis for a future production experiment, not a claim that the hypothesis has been validated in production.",
+    "scope": "PR #208's 54 profile-eligible changed-anchor memberships are not a repository-wide or v1.1-population result."
+  },
+  "mechanism_breakdown": {
+    "candidate_retrieval": {
+      "declared_direct_not_retrieved": {
+        "candidate_ids": [
+          "C:G2:E:structural_change:5d2be31cc60dea3d2f3b",
+          "C:G2:E:structural_change:7c4162e02e623fea377f",
+          "C:G2:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R2:E:structural_change:9ff44326982c1acafe85",
+          "C:R3:E:structural_change:5d2be31cc60dea3d2f3b",
+          "C:R3:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R5:E:structural_change:7c4162e02e623fea377f"
+        ],
+        "count": 7
+      },
+      "declared_direct_retrieved": {
+        "candidate_ids": [
+          "C:R1:E:structural_change:7c4162e02e623fea377f",
+          "C:R1:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R2:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R4:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R5:E:structural_change:d0cf036a1010c1207bc5"
+        ],
+        "count": 5
+      },
+      "interpretation": "A missing candidate is a retrieval gap, not evidence that the candidate is semantically unrelated."
+    },
+    "final_admission": {
+      "direct_capable_without_direct_attempt": {
+        "candidate_ids": [
+          "C:G2:E:structural_change:5d2be31cc60dea3d2f3b",
+          "C:G2:E:structural_change:7c4162e02e623fea377f",
+          "C:G2:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R1:E:structural_change:7c4162e02e623fea377f",
+          "C:R1:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R2:E:structural_change:9ff44326982c1acafe85",
+          "C:R2:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R3:E:structural_change:5d2be31cc60dea3d2f3b",
+          "C:R3:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R4:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R5:E:structural_change:7c4162e02e623fea377f",
+          "C:R5:E:structural_change:d0cf036a1010c1207bc5"
+        ],
+        "count": 12
+      },
+      "disposition": "not_discriminated",
+      "limitation": "No current provided/exact association attempts direct admission inside this bounded PR #208 sample.",
+      "observed_direct_attempts": {
+        "candidate_ids": [],
+        "count": 0
+      }
+    },
+    "proofability": {
+      "declared_direct_capable": {
+        "candidate_ids": [
+          "C:G2:E:structural_change:5d2be31cc60dea3d2f3b",
+          "C:G2:E:structural_change:7c4162e02e623fea377f",
+          "C:G2:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R1:E:structural_change:7c4162e02e623fea377f",
+          "C:R1:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R2:E:structural_change:9ff44326982c1acafe85",
+          "C:R2:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R3:E:structural_change:5d2be31cc60dea3d2f3b",
+          "C:R3:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R4:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R5:E:structural_change:7c4162e02e623fea377f",
+          "C:R5:E:structural_change:d0cf036a1010c1207bc5"
+        ],
+        "count": 12
+      },
+      "direct_capable_retrieved_without_direct_attempt": {
+        "candidate_ids": [
+          "C:R1:E:structural_change:7c4162e02e623fea377f",
+          "C:R1:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R2:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R4:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R5:E:structural_change:d0cf036a1010c1207bc5"
+        ],
+        "count": 5
+      },
+      "disposition": "not_discriminated",
+      "limitation": "The declared proofability judgment is not a typed production proof trace; this calibration cannot measure a missing deterministic-proof mechanism."
+    },
+    "semantic_relation": {
+      "association_role_mixtures": [
+        {
+          "association": "distinctive_phrase",
+          "declared_direct_candidate_ids": [
+            "C:R1:E:structural_change:7c4162e02e623fea377f",
+            "C:R1:E:structural_change:d0cf036a1010c1207bc5",
+            "C:R2:E:structural_change:d0cf036a1010c1207bc5",
+            "C:R4:E:structural_change:d0cf036a1010c1207bc5",
+            "C:R5:E:structural_change:d0cf036a1010c1207bc5"
+          ],
+          "declared_non_direct_candidate_ids": [
+            "C:R1:E:structural_change:44a2370ce77a6e66f8e7",
+            "C:R1:E:structural_change:4fbcf96b02d19017c2c9",
+            "C:R1:E:structural_change:5d2be31cc60dea3d2f3b",
+            "C:R2:E:structural_change:4fbcf96b02d19017c2c9",
+            "C:R2:E:structural_change:5d2be31cc60dea3d2f3b",
+            "C:R4:E:structural_change:4fbcf96b02d19017c2c9",
+            "C:R4:E:structural_change:5d2be31cc60dea3d2f3b",
+            "C:R5:E:structural_change:4fbcf96b02d19017c2c9",
+            "C:R5:E:structural_change:5d2be31cc60dea3d2f3b"
+          ]
+        }
+      ],
+      "interpretation": "A lexical association that contains both declared direct and declared non-direct candidates is candidate evidence, not a semantic-direct determination.",
+      "observed_retrieved_declared_direct": {
+        "candidate_ids": [
+          "C:R1:E:structural_change:7c4162e02e623fea377f",
+          "C:R1:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R2:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R4:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R5:E:structural_change:d0cf036a1010c1207bc5"
+        ],
+        "count": 5
+      },
+      "observed_retrieved_declared_non_direct": {
+        "candidate_ids": [
+          "C:G3:E:structural_change:d0cf036a1010c1207bc5",
+          "C:R1:E:structural_change:44a2370ce77a6e66f8e7",
+          "C:R1:E:structural_change:4fbcf96b02d19017c2c9",
+          "C:R1:E:structural_change:5d2be31cc60dea3d2f3b",
+          "C:R2:E:structural_change:4fbcf96b02d19017c2c9",
+          "C:R2:E:structural_change:5d2be31cc60dea3d2f3b",
+          "C:R4:E:structural_change:4fbcf96b02d19017c2c9",
+          "C:R4:E:structural_change:5d2be31cc60dea3d2f3b",
+          "C:R5:E:structural_change:4fbcf96b02d19017c2c9",
+          "C:R5:E:structural_change:5d2be31cc60dea3d2f3b"
+        ],
+        "count": 10
+      }
+    }
+  },
+  "schema_version": "rg_semantic_layer_calibration.v1",
+  "source_anchor_witnesses": [
+    {
+      "evidence_id": "E:structural_change:44a2370ce77a6e66f8e7",
+      "path": "tests/test_projection.py",
+      "sources": [
+        {
+          "label": "Codegraph symbol",
+          "line_end": 847,
+          "line_start": 825,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/tests/test_projection.py#L825-L847"
+        },
+        {
+          "label": "Codegraph symbol",
+          "line_end": 849,
+          "line_start": 825,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L825-L849"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 832,
+          "line_start": 832,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L832"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 848,
+          "line_start": 848,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L848"
+        }
+      ],
+      "summary": "Modified function: test_projection_uses_review_relevant_structural_closure::relation"
+    },
+    {
+      "evidence_id": "E:structural_change:4fbcf96b02d19017c2c9",
+      "path": "tests/test_projection.py",
+      "sources": [
+        {
+          "label": "Codegraph symbol",
+          "line_end": 1499,
+          "line_start": 1437,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/tests/test_projection.py#L1437-L1499"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1459,
+          "line_start": 1437,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/tests/test_projection.py#L1437-L1459"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1473,
+          "line_start": 1468,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/tests/test_projection.py#L1468-L1473"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1499,
+          "line_start": 1498,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/tests/test_projection.py#L1498-L1499"
+        }
+      ],
+      "summary": "Unresolved function: test_canonical_backbone_seeds_include_rg_and_transformation_anchors"
+    },
+    {
+      "evidence_id": "E:structural_change:5d2be31cc60dea3d2f3b",
+      "path": "tests/test_projection.py",
+      "sources": [
+        {
+          "label": "Codegraph symbol",
+          "line_end": 1514,
+          "line_start": 1473,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1473-L1514"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1473,
+          "line_start": 1473,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1473"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1489,
+          "line_start": 1486,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1486-L1489"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1514,
+          "line_start": 1514,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1514"
+        }
+      ],
+      "summary": "Added function: test_canonical_backbone_seeds_include_all_direct_changed_anchors"
+    },
+    {
+      "evidence_id": "E:structural_change:7c4162e02e623fea377f",
+      "path": "tests/test_projection.py",
+      "sources": [
+        {
+          "label": "Codegraph symbol",
+          "line_end": 1135,
+          "line_start": 766,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/tests/test_projection.py#L766-L1135"
+        },
+        {
+          "label": "Codegraph symbol",
+          "line_end": 1171,
+          "line_start": 766,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L766-L1171"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 869,
+          "line_start": 858,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L858-L869"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1025,
+          "line_start": 1012,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1012-L1025"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1102,
+          "line_start": 1101,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1101-L1102"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1137,
+          "line_start": 1136,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1136-L1137"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1155,
+          "line_start": 1154,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1154-L1155"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 1169,
+          "line_start": 1168,
+          "path": "tests/test_projection.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1168-L1169"
+        }
+      ],
+      "summary": "Modified function: test_projection_uses_review_relevant_structural_closure"
+    },
+    {
+      "evidence_id": "E:structural_change:9ff44326982c1acafe85",
+      "path": "src/prismcode/projection/build.py",
+      "sources": [
+        {
+          "label": "Codegraph symbol",
+          "line_end": 433,
+          "line_start": 57,
+          "path": "src/prismcode/projection/build.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/src/prismcode/projection/build.py#L57-L433"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 329,
+          "line_start": 329,
+          "path": "src/prismcode/projection/build.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/src/prismcode/projection/build.py#L329"
+        },
+        {
+          "label": "Codegraph symbol",
+          "line_end": 432,
+          "line_start": 57,
+          "path": "src/prismcode/projection/build.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L57-L432"
+        }
+      ],
+      "summary": "Modified function: build_review_projection"
+    },
+    {
+      "evidence_id": "E:structural_change:d0cf036a1010c1207bc5",
+      "path": "src/prismcode/projection/build.py",
+      "sources": [
+        {
+          "label": "Codegraph symbol",
+          "line_end": 461,
+          "line_start": 436,
+          "path": "src/prismcode/projection/build.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/src/prismcode/projection/build.py#L436-L461"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 454,
+          "line_start": 442,
+          "path": "src/prismcode/projection/build.py",
+          "url": "https://github.com/repodelta/repodelta/blob/504e61579387092f5b02dffb2ca26c5fed6b8271/src/prismcode/projection/build.py#L442-L454"
+        },
+        {
+          "label": "Codegraph symbol",
+          "line_end": 457,
+          "line_start": 435,
+          "path": "src/prismcode/projection/build.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L435-L457"
+        },
+        {
+          "label": "diff hunk",
+          "line_end": 450,
+          "line_start": 442,
+          "path": "src/prismcode/projection/build.py",
+          "url": "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/src/prismcode/projection/build.py#L442-L450"
+        }
+      ],
+      "summary": "Modified function: _canonical_backbone_seed_node_ids"
+    }
+  ],
+  "structural_packet_digest": "d0f86cce67cc01b6a483d5343949947bc03e5479f252d4b8b5f3bd8a401196bf"
+}
