@@ -28,10 +28,18 @@ to the Task Issue and have the replacement PR declare both `Closes
 #<task-issue>` and `Replaces #<old-pr>`. The new PR takes over execution; it
 does not create a second requirements contract.
 
-Only a mechanically generated, non-semantic change may be exempt. Its PR must
-state `Exemption: <category>` and why it does not change behavior, a public or
-workflow contract, evaluation authority, or repository method. Bot submission
-does not itself make an agent-designed change exempt.
+Only these mechanically generated, non-semantic changes may be exempt:
+
+- `format-only`: a deterministic formatter changes layout or whitespace only;
+- `generated-artifact-sync`: committed derived artifacts are regenerated from
+  unchanged canonical inputs; or
+- `release-metadata`: approved release automation updates metadata from an
+  already accepted release decision without changing source, dependencies, or
+  runtime configuration.
+
+Its PR must state `Exemption: <category>` and its boundary. Dependency, runtime,
+configuration, schema, evaluation-authority, workflow-method, or agent-designed
+changes are never exempt. Bot submission does not itself make a change exempt.
 
 Prefer these headings when applicable:
 

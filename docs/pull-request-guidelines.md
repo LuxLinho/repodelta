@@ -15,7 +15,11 @@ must not be used to close a Parent Issue. A Task Issue may have at most one
 active PR; do not open a second PR until an abandoned attempt has an explicit
 replacement record on the Task Issue. A grandfathered or approved mechanically
 generated non-semantic PR may omit `Closes`, but must state either
-`Grandfathered: <reason>` or `Exemption: <category and boundary>`.
+`Grandfathered: <reason>` or `Exemption: <category and boundary>`. The only
+exemption categories are `format-only`, `generated-artifact-sync`, and
+`release-metadata`; see the Issue guide for their boundaries. Dependency,
+runtime, configuration, schema, workflow-method, evaluation-authority, and
+agent-designed changes still require a Task Issue.
 
 Record applicable items only; do not fill absent concepts with template noise:
 

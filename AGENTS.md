@@ -52,12 +52,13 @@ Use `Closes #<task-issue>` for the owning relation. A PR may additionally use
 authority. The exact authoring grammar, exemptions, replacement record, and
 grandfathering policy are defined in the Issue and PR guides.
 
-Only a mechanically generated, non-semantic change may be exempt, and its PR
-must declare the applicable exemption. A human- or agent-designed change to
-behavior, a public or workflow contract, evaluation authority, or repository
-method is substantive even when a bot submits it. Do not retroactively invent
-Task Issues for work authored before this policy; preserve those links as
-grandfathered historical facts.
+The only exemption categories are `format-only`, `generated-artifact-sync`,
+and `release-metadata` produced from an already accepted release decision. An
+exempt PR must declare its category and boundary. Dependency, runtime,
+configuration, schema, workflow-method, or evaluation-authority changes are
+never exempt. A human- or agent-designed change is substantive even when a bot
+submits it. Do not retroactively invent Task Issues for work authored before
+this policy; preserve those links as grandfathered historical facts.
 
 For non-trivial behavioral, responsibility, contract, data-flow, or
 cross-component changes, follow `docs/agent-change-protocol.md`. Before an

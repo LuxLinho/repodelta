@@ -24,10 +24,11 @@ aggregation and cross-task constraints, not direct implementation authority.
 Pre-policy PRs remain grandfathered historical records; do not create
 requirements after the fact merely to satisfy this protocol.
 
-An approved mechanically generated, non-semantic exemption may proceed without
-a Task Issue only when its PR records the exemption category and why no
-behavioral, contractual, evaluation-authority, or repository-method change is
-present.
+Only the `format-only`, `generated-artifact-sync`, and `release-metadata`
+categories defined in the Issue guide may proceed without a Task Issue. Their
+PR records the category and why no behavioral, contractual,
+evaluation-authority, or repository-method change is present. Dependency,
+runtime, configuration, schema, or agent-designed work is not exempt.
 
 ## 0. Semantic execution
 
