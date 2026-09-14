@@ -5,13 +5,13 @@ non-trivial RepoDelta work, begin with the focused Issue it implements:
 
 ```text
 Closes #<focused-issue>
-Tracks #<broader-issue>    # optional context
 ```
 
-If an existing Issue is broader than this PR, create a focused Issue for this
-task and link the broader Issue for context; do not close the broader Issue from
-the PR. Do not retrospectively add a focused Issue to work authored before this
-rule.
+Use exactly one GitHub closing reference: the focused Issue that supplies this
+PR's requirements. A focused Issue may have no more than one active
+implementation PR, including a Draft. Other Issues may be mentioned as context,
+but hierarchy semantics are outside this guidance. Do not retrospectively add a
+focused Issue to work authored before this rule.
 
 Record applicable items only; do not fill absent concepts with template noise:
 
@@ -41,5 +41,5 @@ Explain why the tree remains valid if the parent stops. Unsupported or
 incomplete semantics must fail closed.
 
 Keep the PR Draft while responsibility, contracts, or a merge gate is unsettled.
-Mark ready only after auditing the final tree. If a broader Issue remains open,
-link the focused Issue that owns this PR's obligations and stop conditions.
+Mark ready only after auditing the final tree. Link the focused Issue that owns
+this PR's obligations and stop conditions.

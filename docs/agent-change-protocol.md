@@ -6,10 +6,10 @@ cross-component changes.
 ## -1. Establish a focused Issue
 
 Before mutating new non-trivial RepoDelta work, identify or create its focused
-Issue. The implementation PR closes that Issue. When an existing Issue is
-broader than the work, create the task's focused Issue and link the broader
-Issue with `Parent: #<broader-issue>` for context; the PR may also track the
-broader Issue. Do not invent focused Issues for work that predates this rule.
+Issue. The implementation PR has exactly one GitHub closing reference, for that
+Issue. Do not start a second active implementation PR for the same focused
+Issue. Other Issues are context only; hierarchy semantics are outside this
+protocol. Do not invent focused Issues for work that predates this rule.
 
 ## 0. Semantic execution
 

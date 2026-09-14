@@ -8,13 +8,12 @@ the implementation.
 
 For new non-trivial RepoDelta work, create one focused Issue before opening its
 implementation PR. That Issue is the requirement-source contract, and the PR
-that implements it begins with `Closes #<focused-issue>`.
+that implements it has exactly one GitHub closing reference:
+`Closes #<focused-issue>`.
 
-If an existing Issue is broader than the proposed change, do not make the PR
-pretend to complete that broader Issue. Create a focused Issue for the task and
-link the broader Issue with `Parent: #<broader-issue>` for context, then have
-the PR close the focused Issue. The PR may also say `Tracks #<broader-issue>`.
-If no broader Issue exists, create the focused Issue directly.
+A focused Issue may have no more than one active implementation PR, including a
+Draft. Other Issues may be cited as context but do not supply implementation
+ownership; formal parent or hierarchy semantics are outside this guidance.
 
 Prefer these headings when applicable:
 
@@ -47,5 +46,5 @@ copy the requirements as a second source of truth.
 
 Mention a repository path or symbol only when it is part of the required
 contract, not merely the expected implementation. Do not retrospectively create
-a focused Issue for a PR that predates this rule or rewrite an older parent
+a focused Issue for a PR that predates this rule or rewrite an older context
 reference as ownership.

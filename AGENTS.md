@@ -40,13 +40,13 @@ implementation PR, and have that PR close the Issue. The Issue owns intent,
 requirements, guardrails, and verification expectations; the PR owns the
 transformation and its evidence.
 
-If an existing Issue is broader than the change, create a focused Issue for the
-task and link the broader Issue with `Parent: #<broader-issue>` for context. The
-PR closes the focused Issue and may also say `Tracks #<broader-issue>`. If no
-broader Issue exists, create the focused Issue directly. Do not retrospectively
-create Issues for work that predates this rule. This is an authoring rule for
-RepoDelta itself, not a change to the product's support for reviewing external
-PRs without linked Issues.
+The focused Issue and implementation PR form one ownership pair: the PR has
+exactly one GitHub closing reference, for its focused Issue, and a focused Issue
+may have no more than one active implementation PR (including a Draft). Other
+Issues may be mentioned as context, but hierarchy semantics are outside this
+rule. Do not retrospectively create Issues for work that predates it. This is
+an authoring rule for RepoDelta itself, not a change to the product's support
+for reviewing external PRs without linked Issues.
 
 For non-trivial behavioral, responsibility, contract, data-flow, or
 cross-component changes, follow `docs/agent-change-protocol.md`. Before an
