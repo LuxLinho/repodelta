@@ -40,12 +40,13 @@ implementation PR, and have that PR close the Issue. The Issue owns intent,
 requirements, guardrails, and verification expectations; the PR owns the
 transformation and its evidence.
 
-If an existing Issue is broader than the change, create a short child Issue
-with `Parent: #<parent-issue>` first. The PR closes the child and may also say
-`Tracks #<parent-issue>` for context. If no parent exists, create the focused
-Issue directly. Do not retrospectively create Issues for work that predates
-this rule. This is an authoring rule for RepoDelta itself, not a change to the
-product's support for reviewing external PRs without linked Issues.
+If an existing Issue is broader than the change, create a focused Issue for the
+task and link the broader Issue with `Parent: #<broader-issue>` for context. The
+PR closes the focused Issue and may also say `Tracks #<broader-issue>`. If no
+broader Issue exists, create the focused Issue directly. Do not retrospectively
+create Issues for work that predates this rule. This is an authoring rule for
+RepoDelta itself, not a change to the product's support for reviewing external
+PRs without linked Issues.
 
 For non-trivial behavioral, responsibility, contract, data-flow, or
 cross-component changes, follow `docs/agent-change-protocol.md`. Before an

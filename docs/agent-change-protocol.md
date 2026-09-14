@@ -6,13 +6,10 @@ cross-component changes.
 ## -1. Establish a focused Issue
 
 Before mutating new non-trivial RepoDelta work, identify or create its focused
-Issue. The implementation PR closes that Issue. When an existing parent Issue
-is broader than the work, create a child Issue with `Parent: #<parent-issue>`
-before the PR; the PR closes the child and may track the parent for context.
-
-If discovery shows that a PR contains unrelated contracts, pause and split the
-work into focused Issues before merge. Do not invent focused Issues for work
-that predates this rule.
+Issue. The implementation PR closes that Issue. When an existing Issue is
+broader than the work, create the task's focused Issue and link the broader
+Issue with `Parent: #<broader-issue>` for context; the PR may also track the
+broader Issue. Do not invent focused Issues for work that predates this rule.
 
 ## 0. Semantic execution
 

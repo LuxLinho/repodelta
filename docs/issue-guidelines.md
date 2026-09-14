@@ -11,10 +11,10 @@ implementation PR. That Issue is the requirement-source contract, and the PR
 that implements it begins with `Closes #<focused-issue>`.
 
 If an existing Issue is broader than the proposed change, do not make the PR
-pretend to complete that parent. Create a short child Issue first, beginning
-with `Parent: #<parent-issue>`, then have the PR close the child. The PR may
-also say `Tracks #<parent-issue>` to retain program context. If no parent
-exists, create the focused Issue directly.
+pretend to complete that broader Issue. Create a focused Issue for the task and
+link the broader Issue with `Parent: #<broader-issue>` for context, then have
+the PR close the focused Issue. The PR may also say `Tracks #<broader-issue>`.
+If no broader Issue exists, create the focused Issue directly.
 
 Prefer these headings when applicable:
 

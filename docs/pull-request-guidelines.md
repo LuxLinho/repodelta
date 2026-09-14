@@ -5,12 +5,13 @@ non-trivial RepoDelta work, begin with the focused Issue it implements:
 
 ```text
 Closes #<focused-issue>
-Tracks #<parent-issue>     # optional context for a child Issue
+Tracks #<broader-issue>    # optional context
 ```
 
-If a parent Issue is broader than this PR, create a focused child Issue first;
-do not close the parent from the PR. Do not retrospectively add a focused Issue
-to work authored before this rule.
+If an existing Issue is broader than this PR, create a focused Issue for this
+task and link the broader Issue for context; do not close the broader Issue from
+the PR. Do not retrospectively add a focused Issue to work authored before this
+rule.
 
 Record applicable items only; do not fill absent concepts with template noise:
 
@@ -40,5 +41,5 @@ Explain why the tree remains valid if the parent stops. Unsupported or
 incomplete semantics must fail closed.
 
 Keep the PR Draft while responsibility, contracts, or a merge gate is unsettled.
-Mark ready only after auditing the final tree. If a parent remains open, link
-the focused child Issue that owns this PR's obligations and stop conditions.
+Mark ready only after auditing the final tree. If a broader Issue remains open,
+link the focused Issue that owns this PR's obligations and stop conditions.
