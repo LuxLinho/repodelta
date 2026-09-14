@@ -3,6 +3,32 @@
 Use this protocol for behavioral, responsibility, contract, data-flow, or
 cross-component changes.
 
+## -1. Establish Task ownership
+
+Before mutating a new substantive RepoDelta implementation, establish one
+human-owned Task Issue and classify any Parent Issue separately. The Task Issue
+owns the requirements contract; the implementation PR will own the transition
+record. Record the intended owning reference as `Closes #<task-issue>`, and an
+optional program reference as `Tracks #<parent-issue>`.
+
+Do not start a second active PR for the same Task Issue. If an attempt is
+abandoned, record its replacement on the Task Issue before starting the
+successor PR, then use `Replaces #<old-pr>` in the successor. If discovery
+shows that one PR contains independently reviewable contracts, stop before
+merge, split the work into Task Issues, and give each resulting PR its own
+owner. Do not solve the split by adding a second requirements source to the
+same PR.
+
+Parent Issues may remain open while child Task Issues execute. Their role is
+aggregation and cross-task constraints, not direct implementation authority.
+Pre-policy PRs remain grandfathered historical records; do not create
+requirements after the fact merely to satisfy this protocol.
+
+An approved mechanically generated, non-semantic exemption may proceed without
+a Task Issue only when its PR records the exemption category and why no
+behavioral, contractual, evaluation-authority, or repository-method change is
+present.
+
 ## 0. Semantic execution
 
 ```

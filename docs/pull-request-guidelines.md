@@ -1,7 +1,23 @@
 # Pull requests
 
-Title the PR around its responsibility or contract transition. Record applicable
-items only; do not fill absent concepts with template noise:
+Title the PR around its responsibility or contract transition. For a new
+substantive RepoDelta implementation PR, begin with exactly one owning Task
+Issue reference:
+
+```text
+Closes #<task-issue>
+Tracks #<parent-issue>     # optional program context
+Replaces #<abandoned-pr>   # optional ownership transfer
+```
+
+`Closes` names requirement authority. `Tracks` never substitutes for it and
+must not be used to close a Parent Issue. A Task Issue may have at most one
+active PR; do not open a second PR until an abandoned attempt has an explicit
+replacement record on the Task Issue. A grandfathered or approved mechanically
+generated non-semantic PR may omit `Closes`, but must state either
+`Grandfathered: <reason>` or `Exemption: <category and boundary>`.
+
+Record applicable items only; do not fill absent concepts with template noise:
 
 - parent transformation, responsibility, output, sinks, authority, and region;
 - each changed derived result's provenance, scope, owner, and dependencies;
@@ -29,5 +45,6 @@ Explain why the tree remains valid if the parent stops. Unsupported or
 incomplete semantics must fail closed.
 
 Keep the PR Draft while responsibility, contracts, or a merge gate is unsettled.
-Mark ready only after auditing the final tree. If the parent remains open, link
-a stable record owning its obligations and stop conditions.
+Mark ready only after auditing the final tree. If a Parent Issue remains open,
+link the stable child Task Issue that owns this PR's obligations and stop
+conditions; do not promote the parent link into requirement authority.
