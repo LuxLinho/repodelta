@@ -289,24 +289,47 @@ def _completion(
 ) -> dict[str, Any]:
     if association_mixtures and selected_direct and selected_non_direct:
         return {
-            "state": "sufficient_evidence",
-            "next_production_layer": "semantic_relation",
-            "hypothesis": (
-                "Insert an R/G semantic-relation stage after broad candidate "
-                "retrieval and before direct admission. A distinctive phrase, claim "
-                "bridge, or other lexical association remains candidate evidence; it "
-                "cannot itself establish semantic-direct membership."
+            "state": "insufficient_evidence",
+            "reason": (
+                "The bounded PR #208 calibration exposes both a retrieval-recall "
+                "gap and a semantic-role mixture, so it cannot choose exactly one "
+                "next production layer."
             ),
-            "falsifier": (
-                "The hypothesis fails if an explicit semantic-relation stage cannot "
-                "distinguish the currently mixed distinctive-phrase candidates from "
-                "source evidence without changing retrieval, or if it must reuse the "
-                "lexical association itself as semantic authority."
+            "findings": {
+                "candidate_retrieval_recall": {
+                    "declared_direct_not_retrieved": len(
+                        declared_direct - selected_direct
+                    ),
+                    "declared_direct_total": len(declared_direct),
+                    "statement": (
+                        "Candidate retrieval misses declared semantic-direct "
+                        "memberships in this bounded set."
+                    ),
+                },
+                "retrieval_reason_semantic_relation": {
+                    "association_role_mixtures": association_mixtures,
+                    "statement": (
+                        "A retrieval association can contain both declared direct "
+                        "and declared non-direct candidates, so retrieval reason does "
+                        "not determine semantic relation."
+                    ),
+                },
+            },
+            "architecture_implication": (
+                "Candidate-retrieval reason and semantic relation must remain "
+                "separate layers. In current production, distinctive-phrase "
+                "evidence is already suggested rather than direct; this mixture "
+                "therefore does not itself establish a direct-admission defect."
             ),
-            "why_not_other_layers": {
+            "unresolved_production_decision": (
+                "PR #208 does not determine whether the next production change "
+                "should prioritize candidate-retrieval recall or semantic "
+                "resolution."
+            ),
+            "unmeasured_layers": {
                 "candidate_retrieval": (
-                    "Retrieval has declared-direct misses, but broad recall need not "
-                    "decide semantic role; those misses remain a separate follow-up."
+                    "The calibration identifies a recall gap but does not test a "
+                    "retrieval expansion or its precision trade-off."
                 ),
                 "proofability": (
                     "This input has declared direct-capable judgments but no typed "
@@ -317,12 +340,6 @@ def _completion(
                     "it cannot measure final-admission overreach or underreach."
                 ),
             },
-            "sequencing_rationale": (
-                "This sample has both recall misses and semantic noise. Expanding "
-                "recall before semantic separation can send more candidates into the "
-                "same mixed lexical surface, so semantic relation is the safer first "
-                "boundary and retrieval recall remains the next follow-up."
-            ),
         }
     return {
         "state": "insufficient_evidence",

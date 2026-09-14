@@ -50,6 +50,10 @@ def build_pr208_rg_calibration(campaign: Path) -> dict[str, object]:
     adjudication_ledger_path = (
         campaign / "rg-semantic-adjudications/pr-208.batch-001.ai-adjudicated.json"
     )
+    adjudication_amendment_path = (
+        campaign
+        / "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json"
+    )
     universe = load_rg_candidate_universe(universe_path)
     if (
         universe.digest != PR208_UNIVERSE_DIGEST
@@ -61,6 +65,9 @@ def build_pr208_rg_calibration(campaign: Path) -> dict[str, object]:
         load_rg_retrieval_observation(retrieval_path),
         load_rg_semantic_reference(declaration_path),
     )
+    adjudication_amendment = _adjudication_amendment_record(
+        campaign, adjudication_amendment_path
+    )
     review_summary = _attach_review_provenance(
         result,
         proposer_run_path=proposer_run_path,
@@ -69,6 +76,7 @@ def build_pr208_rg_calibration(campaign: Path) -> dict[str, object]:
         verifier_output_path=verifier_output_path,
         adjudicator_run_path=adjudicator_run_path,
         adjudication_ledger_path=adjudication_ledger_path,
+        adjudication_amendment=adjudication_amendment,
     )
     result["input_provenance"] = {
         "candidate_universe": _file_identity(campaign, universe_path),
@@ -87,6 +95,7 @@ def build_pr208_rg_calibration(campaign: Path) -> dict[str, object]:
             ],
             "verifier_decisions": _file_identity(campaign, verifier_output_path),
             "adjudication_ledger": _file_identity(campaign, adjudication_ledger_path),
+            "adjudication_amendment": adjudication_amendment,
             "verifier_decision_summary": review_summary,
             "limitation": (
                 "The identities and execution contracts are preserved as provenance; "
@@ -97,7 +106,11 @@ def build_pr208_rg_calibration(campaign: Path) -> dict[str, object]:
         "review_design_boundary": (
             "The #309 manifest selected all 54 candidate IDs before labeling. Its "
             "proposal/adjudication output remains historical proposed calibration "
-            "evidence and is not upgraded to a verified semantic reference here."
+            "evidence and is not upgraded to a verified semantic reference here. "
+            "The AI-adjudicator amendment was frozen after the 22 verifier "
+            "disagreements were known, but before the adjudicator received the "
+            "unresolved ledger; it is not a pre-registration of the full #309 "
+            "review path."
         ),
     }
     return result
@@ -128,6 +141,35 @@ def _review_record(campaign: Path, path: Path) -> dict[str, object]:
     }
 
 
+def _adjudication_amendment_record(
+    campaign: Path, path: Path
+) -> dict[str, object]:
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if raw.get("batch_id") != "pr-208-batch-001":
+        raise ValueError("PR #208 adjudication amendment must bind its batch")
+    if raw.get("status") != "effective_before_ai_adjudication":
+        raise ValueError("PR #208 adjudication amendment must predate adjudication")
+    sequencing = raw.get("sequencing")
+    if not isinstance(sequencing, list) or not sequencing or (
+        "before the third AI receives ledger contents" not in sequencing[0]
+    ):
+        raise ValueError("PR #208 adjudication amendment must freeze before ledger access")
+    return {
+        **_file_identity(campaign, path),
+        "amendment_id": raw["amendment_id"],
+        "status": raw["status"],
+        "authority_scope": raw["plan_delta"]["authority_scope"],
+        "authorization_timing": (
+            "Frozen after the 22 verifier disagreements were known and before the "
+            "third AI received the unresolved ledger."
+        ),
+        "limitation": (
+            "This is a post-disagreement plan delta, not a pre-registration of the "
+            "entire proposer/verifier/adjudicator path."
+        ),
+    }
+
+
 def _attach_review_provenance(
     result: dict[str, object],
     *,
@@ -137,6 +179,7 @@ def _attach_review_provenance(
     verifier_output_path: Path,
     adjudicator_run_path: Path,
     adjudication_ledger_path: Path,
+    adjudication_amendment: dict[str, object],
 ) -> dict[str, int]:
     proposer_run = json.loads(proposer_run_path.read_text(encoding="utf-8"))
     proposer_declaration = json.loads(
@@ -213,6 +256,7 @@ def _attach_review_provenance(
                 "status": adjudication["status"],
                 "disposition": adjudication["disposition"],
                 "decision_witnesses": adjudication["decision_witnesses"],
+                "role_authorization": adjudication_amendment,
             }
             final_label_lineage = "verifier_challenge_resolved_by_adjudicator"
         candidate["review_provenance"] = {

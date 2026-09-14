@@ -205,6 +205,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -252,6 +261,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -393,6 +411,15 @@
           ],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -444,6 +471,15 @@
           ],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -491,6 +527,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -765,6 +810,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -821,6 +875,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -1048,6 +1111,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -1095,6 +1167,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -1262,6 +1343,15 @@
           "decision_witnesses": [],
           "disposition": "retain_proposer",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -1324,6 +1414,15 @@
           ],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -1371,6 +1470,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -1585,6 +1693,15 @@
           "decision_witnesses": [],
           "disposition": "retain_proposer",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -1632,6 +1749,15 @@
           "decision_witnesses": [],
           "disposition": "retain_proposer",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -1876,6 +2002,15 @@
           ],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -1968,6 +2103,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -2176,6 +2320,15 @@
           "decision_witnesses": [],
           "disposition": "retain_proposer",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -2223,6 +2376,15 @@
           "decision_witnesses": [],
           "disposition": "retain_proposer",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -2270,6 +2432,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -2481,6 +2652,15 @@
           "decision_witnesses": [],
           "disposition": "retain_proposer",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -2532,6 +2712,15 @@
           ],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -2579,6 +2768,15 @@
           "decision_witnesses": [],
           "disposition": "retain_verifier",
           "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "role_authorization": {
+            "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+            "authority_scope": "campaign-local disagreement resolution",
+            "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+            "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+            "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+            "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+            "status": "effective_before_ai_adjudication"
+          },
           "status": "resolved"
         },
         "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
@@ -2668,16 +2866,48 @@
     "semantic_reference": "not_verified"
   },
   "completion": {
-    "falsifier": "The hypothesis fails if an explicit semantic-relation stage cannot distinguish the currently mixed distinctive-phrase candidates from source evidence without changing retrieval, or if it must reuse the lexical association itself as semantic authority.",
-    "hypothesis": "Insert an R/G semantic-relation stage after broad candidate retrieval and before direct admission. A distinctive phrase, claim bridge, or other lexical association remains candidate evidence; it cannot itself establish semantic-direct membership.",
-    "next_production_layer": "semantic_relation",
-    "sequencing_rationale": "This sample has both recall misses and semantic noise. Expanding recall before semantic separation can send more candidates into the same mixed lexical surface, so semantic relation is the safer first boundary and retrieval recall remains the next follow-up.",
-    "state": "sufficient_evidence",
-    "why_not_other_layers": {
-      "candidate_retrieval": "Retrieval has declared-direct misses, but broad recall need not decide semantic role; those misses remain a separate follow-up.",
+    "architecture_implication": "Candidate-retrieval reason and semantic relation must remain separate layers. In current production, distinctive-phrase evidence is already suggested rather than direct; this mixture therefore does not itself establish a direct-admission defect.",
+    "findings": {
+      "candidate_retrieval_recall": {
+        "declared_direct_not_retrieved": 7,
+        "declared_direct_total": 12,
+        "statement": "Candidate retrieval misses declared semantic-direct memberships in this bounded set."
+      },
+      "retrieval_reason_semantic_relation": {
+        "association_role_mixtures": [
+          {
+            "association": "distinctive_phrase",
+            "declared_direct_candidate_ids": [
+              "C:R1:E:structural_change:7c4162e02e623fea377f",
+              "C:R1:E:structural_change:d0cf036a1010c1207bc5",
+              "C:R2:E:structural_change:d0cf036a1010c1207bc5",
+              "C:R4:E:structural_change:d0cf036a1010c1207bc5",
+              "C:R5:E:structural_change:d0cf036a1010c1207bc5"
+            ],
+            "declared_non_direct_candidate_ids": [
+              "C:R1:E:structural_change:44a2370ce77a6e66f8e7",
+              "C:R1:E:structural_change:4fbcf96b02d19017c2c9",
+              "C:R1:E:structural_change:5d2be31cc60dea3d2f3b",
+              "C:R2:E:structural_change:4fbcf96b02d19017c2c9",
+              "C:R2:E:structural_change:5d2be31cc60dea3d2f3b",
+              "C:R4:E:structural_change:4fbcf96b02d19017c2c9",
+              "C:R4:E:structural_change:5d2be31cc60dea3d2f3b",
+              "C:R5:E:structural_change:4fbcf96b02d19017c2c9",
+              "C:R5:E:structural_change:5d2be31cc60dea3d2f3b"
+            ]
+          }
+        ],
+        "statement": "A retrieval association can contain both declared direct and declared non-direct candidates, so retrieval reason does not determine semantic relation."
+      }
+    },
+    "reason": "The bounded PR #208 calibration exposes both a retrieval-recall gap and a semantic-role mixture, so it cannot choose exactly one next production layer.",
+    "state": "insufficient_evidence",
+    "unmeasured_layers": {
+      "candidate_retrieval": "The calibration identifies a recall gap but does not test a retrieval expansion or its precision trade-off.",
       "final_admission": "The bounded observation contains no current direct attempts, so it cannot measure final-admission overreach or underreach.",
       "proofability": "This input has declared direct-capable judgments but no typed production proof trace, so it cannot isolate proofability."
-    }
+    },
+    "unresolved_production_decision": "PR #208 does not determine whether the next production change should prioritize candidate-retrieval recall or semantic resolution."
   },
   "counts": {
     "candidate_count": 54,
@@ -2714,6 +2944,15 @@
       "sha256": "46fd0a8a0bc5bb9c38b66ecb191e8191677d11b5d9a7eee48c1e5f1d995cccd9"
     },
     "historical_review_method": {
+      "adjudication_amendment": {
+        "amendment_id": "pr-208-batch-001-ai-adjudication-amendment-001",
+        "authority_scope": "campaign-local disagreement resolution",
+        "authorization_timing": "Frozen after the 22 verifier disagreements were known and before the third AI received the unresolved ledger.",
+        "limitation": "This is a post-disagreement plan delta, not a pre-registration of the entire proposer/verifier/adjudicator path.",
+        "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudication-amendment.json",
+        "sha256": "af3ad7ab8810867b8afa3711f102ae6a4d5509a3e3f88d8cd3452c0b932cb88c",
+        "status": "effective_before_ai_adjudication"
+      },
       "adjudication_ledger": {
         "path": "rg-semantic-adjudications/pr-208.batch-001.ai-adjudicated.json",
         "sha256": "a38e30fd469007b748a318752825ab182aa023400075f0f648c18627742dcd0b"
@@ -2797,7 +3036,7 @@
       "path": "rg-retrieval-observations/pr-208.json",
       "sha256": "23cdb982ef6a14e38f9b9749b91a50b41ede446f3033c73d3b9f47913669b04d"
     },
-    "review_design_boundary": "The #309 manifest selected all 54 candidate IDs before labeling. Its proposal/adjudication output remains historical proposed calibration evidence and is not upgraded to a verified semantic reference here."
+    "review_design_boundary": "The #309 manifest selected all 54 candidate IDs before labeling. Its proposal/adjudication output remains historical proposed calibration evidence and is not upgraded to a verified semantic reference here. The AI-adjudicator amendment was frozen after the 22 verifier disagreements were known, but before the adjudicator received the unresolved ledger; it is not a pre-registration of the full #309 review path."
   },
   "limits": {
     "authority": "The declared judgments are historical proposed calibration evidence from #309, not a protocol-verified semantic reference.",

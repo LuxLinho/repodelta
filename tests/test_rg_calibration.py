@@ -42,7 +42,7 @@ def _inputs():
     )
 
 
-def test_pr208_calibration_preserves_boundaries_and_nominates_semantic_relation() -> None:
+def test_pr208_calibration_preserves_boundaries_and_reports_precise_insufficiency() -> None:
     universe, retrieval, declaration = _inputs()
 
     result = analyze_rg_semantic_layer_calibration(universe, retrieval, declaration)
@@ -93,11 +93,24 @@ def test_pr208_calibration_preserves_boundaries_and_nominates_semantic_relation(
             ],
         }
     ]
-    assert result["completion"]["state"] == "sufficient_evidence"
-    assert result["completion"]["next_production_layer"] == "semantic_relation"
-    assert "Expanding recall before semantic separation" in result["completion"][
-        "sequencing_rationale"
+    assert result["completion"]["state"] == "insufficient_evidence"
+    assert "cannot choose exactly one next production layer" in result["completion"][
+        "reason"
     ]
+    assert result["completion"]["findings"]["candidate_retrieval_recall"] == {
+        "declared_direct_not_retrieved": 7,
+        "declared_direct_total": 12,
+        "statement": (
+            "Candidate retrieval misses declared semantic-direct memberships in this "
+            "bounded set."
+        ),
+    }
+    assert "distinctive-phrase evidence is already suggested rather than direct" in (
+        result["completion"]["architecture_implication"]
+    )
+    assert "does not determine whether the next production change" in result[
+        "completion"
+    ]["unresolved_production_decision"]
 
 
 def test_calibration_rejects_a_verified_reference_and_unbound_retrieval() -> None:
@@ -146,6 +159,13 @@ def test_committed_pr208_calibration_is_reproducible() -> None:
     assert result["input_provenance"]["historical_review_method"][
         "verifier_decision_summary"
     ] == {"accept": 32, "challenge": 22, "adjudicated": 22}
+    amendment = result["input_provenance"]["historical_review_method"][
+        "adjudication_amendment"
+    ]
+    assert amendment["status"] == "effective_before_ai_adjudication"
+    assert "after the 22 verifier disagreements were known" in amendment[
+        "authorization_timing"
+    ]
     records = {item["candidate_id"]: item for item in result["candidate_records"]}
     accepted = records["C:G1:E:structural_change:44a2370ce77a6e66f8e7"][
         "review_provenance"
@@ -163,3 +183,4 @@ def test_committed_pr208_calibration_is_reproducible() -> None:
     assert challenged["final_label_lineage"] == (
         "verifier_challenge_resolved_by_adjudicator"
     )
+    assert challenged["adjudicator"]["role_authorization"] == amendment

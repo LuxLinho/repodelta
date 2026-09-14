@@ -23,16 +23,17 @@ The generated [`pr-208.json`](pr-208.json) binds all input artifacts, including 
 | Retrieved declared non-direct | 10 | Semantic noise in the current retrieved set |
 | Current direct attempts | 0 | Final direct admission is not measured by this sample |
 
-The decisive counterexample is `distinctive_phrase`: it retrieves **5 declared direct** and **9 declared non-direct** candidates. The same lexical association therefore cannot decide semantic relation or direct authority. Its job may remain broad candidate retrieval.
+The decisive counterexample is `distinctive_phrase`: it retrieves **5 declared direct** and **9 declared non-direct** candidates. The same lexical association therefore cannot decide semantic relation. Its job may remain broad candidate retrieval; current production already treats it as `suggested`, not direct authority.
 
-## Completion: sufficient evidence
+## Completion: precise insufficiency
 
-The bounded evidence nominates exactly one next production layer: **semantic relation**.
+The bounded PR #208 evidence is **insufficient to choose exactly one next production layer**. It identifies two separate defects, but does not establish whether retrieval recall or semantic resolution should be changed first.
 
-> Introduce an R/G semantic-relation stage after broad candidate retrieval and before direct admission. A distinctive phrase, claim bridge, or other lexical association remains candidate evidence; it cannot itself establish semantic-direct membership.
+1. **Candidate-retrieval recall is insufficient in this set.** Seven of the 12 declared semantic-direct candidates were not retrieved.
+2. **Retrieval reason does not determine semantic relation.** `distinctive_phrase` retrieves **5 declared direct** and **9 declared non-direct** candidates.
 
-Both recall and semantic discrimination are deficient here. The sequencing is nevertheless semantic separation first: expanding recall before separating semantic role would send more candidates into the same currently mixed lexical surface and can expand noise together with recall. The next production step must preserve lexical associations as candidates, separate their semantic roles, and only then improve retrieval coverage.
+The architectural implication is narrower and stable: candidate-retrieval reason and semantic relation must remain separate layers. In current production, `distinctive_phrase` is already `suggested`, not direct. Its mixture is therefore not, by itself, a direct-admission defect.
 
-This hypothesis is falsified if an explicit semantic-relation stage cannot distinguish the currently mixed `distinctive_phrase` candidates from source evidence without changing retrieval, or if it must reuse the lexical association itself as semantic authority.
+PR #208 cannot decide whether the next production change should prioritize recall or semantic resolution. Proofability and final admission also remain unmeasured because this sample contains neither a typed production proof trace nor an observed current direct attempt. No production behavior changes in this calibration.
 
-Candidate retrieval remains a follow-up: the seven declared-direct misses need greater recall, but broad recall does not need to decide semantic role. Proofability and final admission are not nominated because this sample has no typed production proof trace and no observed current direct attempt. No production behavior changes in this calibration.
+The generated calibration also binds the #309 AI-adjudication amendment by SHA-256. The amendment was frozen after the 22 verifier disagreements were known but before the adjudicator received their ledger. It is recorded as a post-disagreement plan delta, not as prospective registration of the full #309 review path.
