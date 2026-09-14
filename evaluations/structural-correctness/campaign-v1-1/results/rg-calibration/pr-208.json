@@ -20,6 +20,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
       "subject_id": "G1"
     },
@@ -42,6 +64,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
       "subject_id": "G1"
@@ -66,6 +110,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
       "subject_id": "G1"
     },
@@ -88,6 +154,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
       "subject_id": "G1"
@@ -112,6 +200,30 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
       "subject_id": "G1"
     },
@@ -134,6 +246,30 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
       "subject_id": "G1"
@@ -158,6 +294,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
       "subject_id": "G2"
     },
@@ -180,6 +338,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
       "subject_id": "G2"
@@ -206,6 +386,32 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [
+            "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1473-L1514"
+          ],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
       "subject_id": "G2"
     },
@@ -231,6 +437,32 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [
+            "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L766-L1171"
+          ],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
       "subject_id": "G2"
     },
@@ -253,6 +485,30 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
       "subject_id": "G2"
@@ -279,6 +535,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
       "subject_id": "G2"
     },
@@ -301,6 +579,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
       "subject_id": "G3"
@@ -325,6 +625,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
       "subject_id": "G3"
     },
@@ -347,6 +669,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
       "subject_id": "G3"
@@ -371,6 +715,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
       "subject_id": "G3"
     },
@@ -393,6 +759,30 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
       "subject_id": "G3"
@@ -426,6 +816,30 @@
         "relation_id": "PR:29400860b268293064ee",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
       "subject_id": "G3"
     },
@@ -448,6 +862,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
       "subject_id": "G4"
@@ -472,6 +908,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
       "subject_id": "G4"
     },
@@ -494,6 +952,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
       "subject_id": "G4"
@@ -518,6 +998,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
       "subject_id": "G4"
     },
@@ -541,6 +1043,30 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
       "subject_id": "G4"
     },
@@ -563,6 +1089,30 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
       "subject_id": "G4"
@@ -597,6 +1147,28 @@
         "relation_id": "PR:37c4b872d580245c1478",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
       "subject_id": "R1"
     },
@@ -630,6 +1202,28 @@
         "relation_id": "PR:0d1da592a9c5ff9d324b",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
       "subject_id": "R1"
     },
@@ -662,6 +1256,30 @@
         ],
         "relation_id": "PR:57c956df4b714a7b26a8",
         "state": "selected"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_proposer",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
       "subject_id": "R1"
@@ -699,6 +1317,32 @@
         "relation_id": "PR:abb079d1efad751b24e2",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [
+            "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L766-L1171"
+          ],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
       "subject_id": "R1"
     },
@@ -721,6 +1365,30 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
       "subject_id": "R1"
@@ -759,6 +1427,28 @@
         "relation_id": "PR:1aacf84ecfd6649bf87b",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
       "subject_id": "R1"
     },
@@ -781,6 +1471,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
       "subject_id": "R2"
@@ -814,6 +1526,28 @@
         "relation_id": "PR:2e34e8ec774dec9fe4b2",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
       "subject_id": "R2"
     },
@@ -846,6 +1580,30 @@
         "relation_id": "PR:ebd9497d2ef2778480a3",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_proposer",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
       "subject_id": "R2"
     },
@@ -868,6 +1626,30 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_proposer",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
       "subject_id": "R2"
@@ -893,6 +1675,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
       "subject_id": "R2"
@@ -928,6 +1732,28 @@
         "relation_id": "PR:95ecaa2ed8719b2f5f3c",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
       "subject_id": "R2"
     },
@@ -951,6 +1777,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
       "subject_id": "R3"
     },
@@ -973,6 +1821,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
       "subject_id": "R3"
@@ -999,6 +1869,32 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [
+            "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L1473-L1514"
+          ],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
       "subject_id": "R3"
     },
@@ -1022,6 +1918,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
       "subject_id": "R3"
     },
@@ -1044,6 +1962,30 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
       "subject_id": "R3"
@@ -1070,6 +2012,28 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
       "subject_id": "R3"
     },
@@ -1092,6 +2056,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
       "subject_id": "R4"
@@ -1128,6 +2114,28 @@
         "relation_id": "PR:8b15af7d5eafa90adf43",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
       "subject_id": "R4"
     },
@@ -1163,6 +2171,30 @@
         "relation_id": "PR:b8ad1961e49fed5173bf",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_proposer",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
       "subject_id": "R4"
     },
@@ -1186,6 +2218,30 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_proposer",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
       "subject_id": "R4"
     },
@@ -1208,6 +2264,30 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
       "subject_id": "R4"
@@ -1245,6 +2325,28 @@
         "relation_id": "PR:96e323515b714e39a56d",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
       "subject_id": "R4"
     },
@@ -1267,6 +2369,28 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:44a2370ce77a6e66f8e7",
       "subject_id": "R5"
@@ -1299,6 +2423,28 @@
         "relation_id": "PR:a7ae7e4555da1f5e8770",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:4fbcf96b02d19017c2c9",
       "subject_id": "R5"
     },
@@ -1330,6 +2476,30 @@
         "relation_id": "PR:31115b9f5c0674655585",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_proposer",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:5d2be31cc60dea3d2f3b",
       "subject_id": "R5"
     },
@@ -1355,6 +2525,32 @@
         "relation_id": null,
         "state": "not_retrieved"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [
+            "https://github.com/repodelta/repodelta/blob/e6d94bd9c414a09c1027aac0bc658ba025ddf3ad/tests/test_projection.py#L766-L1171"
+          ],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:7c4162e02e623fea377f",
       "subject_id": "R5"
     },
@@ -1377,6 +2573,30 @@
         "reasons": [],
         "relation_id": null,
         "state": "not_retrieved"
+      },
+      "review_provenance": {
+        "adjudicator": {
+          "decision_witnesses": [],
+          "disposition": "retain_verifier",
+          "identity": "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator",
+          "status": "resolved"
+        },
+        "final_label_lineage": "verifier_challenge_resolved_by_adjudicator",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "challenge",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
       },
       "source_anchor_witness_id": "E:structural_change:9ff44326982c1acafe85",
       "subject_id": "R5"
@@ -1413,6 +2633,28 @@
         "relation_id": "PR:14f96604e8ad458d1d3d",
         "state": "selected"
       },
+      "review_provenance": {
+        "adjudicator": {
+          "reason": "verifier accepted the proposer label",
+          "status": "not_invoked"
+        },
+        "final_label_lineage": "proposer_retained_after_verifier_accept",
+        "proposer": {
+          "decision": "proposed_label",
+          "identity": "deepseek:deepseek-v4-flash:pr-208-batch-001-proposer"
+        },
+        "uncertainty": [
+          "The opaque Codex verifier did not emit a reproducible model identifier and cannot establish verified-reference authority.",
+          "This lineage is historical proposed calibration evidence, not an independent semantic reference or formal metric."
+        ],
+        "verifier": {
+          "authority": "unverified_verification_attempt",
+          "decision": "accept",
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model_identifier": "not_emitted_by_local_cli",
+          "reproducible_model_identifier": false
+        }
+      },
       "source_anchor_witness_id": "E:structural_change:d0cf036a1010c1207bc5",
       "subject_id": "R5"
     }
@@ -1426,9 +2668,10 @@
     "semantic_reference": "not_verified"
   },
   "completion": {
-    "falsifier": "The hypothesis fails if a future isolated cross-PR evaluation shows that each pre-semantic association class maps to one semantic role, or if the new stage permits lexical association alone to create a direct admission.",
+    "falsifier": "The hypothesis fails if an explicit semantic-relation stage cannot distinguish the currently mixed distinctive-phrase candidates from source evidence without changing retrieval, or if it must reuse the lexical association itself as semantic authority.",
     "hypothesis": "Insert an R/G semantic-relation stage after broad candidate retrieval and before direct admission. A distinctive phrase, claim bridge, or other lexical association remains candidate evidence; it cannot itself establish semantic-direct membership.",
     "next_production_layer": "semantic_relation",
+    "sequencing_rationale": "This sample has both recall misses and semantic noise. Expanding recall before semantic separation can send more candidates into the same mixed lexical surface, so semantic relation is the safer first boundary and retrieval recall remains the next follow-up.",
     "state": "sufficient_evidence",
     "why_not_other_layers": {
       "candidate_retrieval": "Retrieval has declared-direct misses, but broad recall need not decide semantic role; those misses remain a separate follow-up.",
@@ -1466,13 +2709,22 @@
       "path": "rg-semantic-proposals/pr-208.batch-001.ai-adjudicated.proposed.json",
       "sha256": "9e55d0aebc69201a2fcaf6012ce98e8a843b69616879ba0ec8769caf2135b83d"
     },
+    "historical_proposer_declaration": {
+      "path": "rg-semantic-proposals/pr-208.batch-001.proposed.json",
+      "sha256": "46fd0a8a0bc5bb9c38b66ecb191e8191677d11b5d9a7eee48c1e5f1d995cccd9"
+    },
     "historical_review_method": {
+      "adjudication_ledger": {
+        "path": "rg-semantic-adjudications/pr-208.batch-001.ai-adjudicated.json",
+        "sha256": "a38e30fd469007b748a318752825ab182aa023400075f0f648c18627742dcd0b"
+      },
       "kind": "source-evidence proposal followed by campaign-local AI adjudication",
       "limitation": "The identities and execution contracts are preserved as provenance; they do not turn the proposal into a verified reference or prove independent error modes.",
       "records": [
         {
           "authority_boundary": "This is a blind proposer output only. It is not a verified semantic reference, a semantic-correctness metric, a production association decision, or an assessment authority.",
           "endpoint_class": "deepseek-openai-chat-completions",
+          "execution": null,
           "execution_contract": {
             "max_tokens": 12000,
             "model_configuration_sha256": "cc9ffc950b7979146a02abc9887666fee6af222add5c243b884b46a9fc374fd8",
@@ -1487,12 +2739,33 @@
           "model": "deepseek-v4-flash",
           "path": "rg-semantic-labeling-runs/pr-208.batch-001.proposer-run.json",
           "provider": "DeepSeek",
+          "reproducible_model_identifier": true,
           "role": "proposer",
           "sha256": "1152d1ae64eeb418488208207f279e3083bbc2e2ac2e60fe2d23012ad98965a2"
         },
         {
+          "authority_boundary": "The verifier recorded unresolved challenges. This run is not a verified semantic reference and may not create semantic FI/FE metrics, production association changes, or formal assessment conclusions.",
+          "endpoint_class": null,
+          "execution": {
+            "ephemeral": true,
+            "fresh": true,
+            "raw_execution_log_retained": false,
+            "sandbox": "read_only",
+            "working_directory": "isolated six-file verifier bundle"
+          },
+          "execution_contract": null,
+          "identity": "openai-codex:authenticated-default:pr-208-batch-001-verifier",
+          "model": "not_emitted_by_local_cli",
+          "path": "rg-semantic-labeling-runs/pr-208.batch-001.verifier-run.json",
+          "provider": "OpenAI Codex",
+          "reproducible_model_identifier": false,
+          "role": "verifier",
+          "sha256": "a1b94e96c65f16444cf0e4b97445ba7c6f7620f96399eee4cceac5066a18cf0e"
+        },
+        {
           "authority_boundary": "This resolves the recorded proposer/verifier disagreements for this campaign batch only. It does not verify the reference, produce semantic FI/FE, change production association, or alter formal assessment.",
           "endpoint_class": "deepseek-openai-compatible",
+          "execution": null,
           "execution_contract": {
             "max_tokens": 16000,
             "model_configuration_sha256": "1c6c1aa9f10c68c77418ebb6a420692a701559e448d7cd21a2aee2e3a4e74270",
@@ -1505,10 +2778,20 @@
           "model": "deepseek-v4-pro",
           "path": "rg-semantic-labeling-runs/pr-208.batch-001.ai-adjudicator-run.json",
           "provider": "DeepSeek",
+          "reproducible_model_identifier": true,
           "role": "AI adjudicator",
           "sha256": "3b3f29231811d4012ced6e29d88daa67d22e434be073ef0808cc152fdfd80d6b"
         }
-      ]
+      ],
+      "verifier_decision_summary": {
+        "accept": 32,
+        "adjudicated": 22,
+        "challenge": 22
+      },
+      "verifier_decisions": {
+        "path": "rg-semantic-verifications/pr-208.batch-001.verifier-output.json",
+        "sha256": "ca9b682601e3219f01f01af8bc76b4a9f465adb75a8c0ec7dbbb41affce732cc"
+      }
     },
     "observed_retrieval": {
       "path": "rg-retrieval-observations/pr-208.json",

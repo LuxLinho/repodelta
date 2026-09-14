@@ -10,7 +10,7 @@ This is the bounded decision calibration for [Issue #316](https://github.com/rep
 | #309 adjudicated proposal | 54 declared semantic/proofability judgments | Historical calibration evidence only |
 | Retrieval observation | Current association/convergence result | Observed system fact only |
 
-The generated [`pr-208.json`](pr-208.json) binds all four input artifacts, including the all-54 frozen review design and the recorded proposer/adjudicator identities, by SHA-256. It rejects a `verified` reference so it cannot become a second semantic-comparison consumer.
+The generated [`pr-208.json`](pr-208.json) binds all input artifacts, including the all-54 frozen review design, proposer, opaque verifier, verifier-decision output, adjudication ledger, and adjudicator by SHA-256. Every candidate record exposes its actual `proposer → verifier → optional adjudicator` lineage and the opaque verifier limitation. It rejects a `verified` reference so it cannot become a second semantic-comparison consumer.
 
 ## Mechanism breakdown
 
@@ -31,6 +31,8 @@ The bounded evidence nominates exactly one next production layer: **semantic rel
 
 > Introduce an R/G semantic-relation stage after broad candidate retrieval and before direct admission. A distinctive phrase, claim bridge, or other lexical association remains candidate evidence; it cannot itself establish semantic-direct membership.
 
-This hypothesis is falsified if a future isolated cross-PR evaluation shows that every pre-semantic association class maps to exactly one semantic role, or if the new stage still allows lexical association alone to create direct admission.
+Both recall and semantic discrimination are deficient here. The sequencing is nevertheless semantic separation first: expanding recall before separating semantic role would send more candidates into the same currently mixed lexical surface and can expand noise together with recall. The next production step must preserve lexical associations as candidates, separate their semantic roles, and only then improve retrieval coverage.
+
+This hypothesis is falsified if an explicit semantic-relation stage cannot distinguish the currently mixed `distinctive_phrase` candidates from source evidence without changing retrieval, or if it must reuse the lexical association itself as semantic authority.
 
 Candidate retrieval remains a follow-up: the seven declared-direct misses need greater recall, but broad recall does not need to decide semantic role. Proofability and final admission are not nominated because this sample has no typed production proof trace and no observed current direct attempt. No production behavior changes in this calibration.

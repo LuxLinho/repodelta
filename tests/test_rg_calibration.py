@@ -95,6 +95,9 @@ def test_pr208_calibration_preserves_boundaries_and_nominates_semantic_relation(
     ]
     assert result["completion"]["state"] == "sufficient_evidence"
     assert result["completion"]["next_production_layer"] == "semantic_relation"
+    assert "Expanding recall before semantic separation" in result["completion"][
+        "sequencing_rationale"
+    ]
 
 
 def test_calibration_rejects_a_verified_reference_and_unbound_retrieval() -> None:
@@ -140,3 +143,23 @@ def test_committed_pr208_calibration_is_reproducible() -> None:
     )
 
     assert json.loads(json.dumps(result)) == committed
+    assert result["input_provenance"]["historical_review_method"][
+        "verifier_decision_summary"
+    ] == {"accept": 32, "challenge": 22, "adjudicated": 22}
+    records = {item["candidate_id"]: item for item in result["candidate_records"]}
+    accepted = records["C:G1:E:structural_change:44a2370ce77a6e66f8e7"][
+        "review_provenance"
+    ]
+    assert accepted["verifier"]["decision"] == "accept"
+    assert accepted["verifier"]["reproducible_model_identifier"] is False
+    assert accepted["adjudicator"]["status"] == "not_invoked"
+    challenged = records["C:G1:E:structural_change:9ff44326982c1acafe85"][
+        "review_provenance"
+    ]
+    assert challenged["verifier"]["decision"] == "challenge"
+    assert challenged["adjudicator"]["identity"] == (
+        "deepseek:deepseek-v4-pro:pr-208-batch-001-ai-adjudicator"
+    )
+    assert challenged["final_label_lineage"] == (
+        "verifier_challenge_resolved_by_adjudicator"
+    )

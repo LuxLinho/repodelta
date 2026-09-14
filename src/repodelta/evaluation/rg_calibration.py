@@ -14,6 +14,7 @@ from dataclasses import asdict
 from typing import Any
 
 from repodelta.evaluation.rg_candidate_universe import (
+    RG_DIRECT_ATTEMPT_ASSOCIATIONS,
     RGRetrievalObservation,
     RGSemanticCandidateUniverse,
     RGSemanticReference,
@@ -25,7 +26,6 @@ RG_CALIBRATION_SCHEMA = "rg_semantic_layer_calibration.v1"
 _DIRECT_RELATIONS = frozenset(
     {"implements", "constrains", "removes", "directly_verifies"}
 )
-_DIRECT_ASSOCIATIONS = frozenset({"provided_association", "exact_identifier"})
 
 
 def analyze_rg_semantic_layer_calibration(
@@ -66,7 +66,7 @@ def analyze_rg_semantic_layer_calibration(
         row = rows[candidate.candidate_id]
         semantic_direct = label.semantic_relation in _DIRECT_RELATIONS
         observed = row.retrieval_state != "not_retrieved"
-        direct_attempt = row.association in _DIRECT_ASSOCIATIONS
+        direct_attempt = row.association in RG_DIRECT_ATTEMPT_ASSOCIATIONS
         if semantic_direct:
             declared_direct.add(candidate.candidate_id)
         if observed:
@@ -298,10 +298,10 @@ def _completion(
                 "cannot itself establish semantic-direct membership."
             ),
             "falsifier": (
-                "The hypothesis fails if a future isolated cross-PR evaluation shows "
-                "that each pre-semantic association class maps to one semantic role, "
-                "or if the new stage permits lexical association alone to create a "
-                "direct admission."
+                "The hypothesis fails if an explicit semantic-relation stage cannot "
+                "distinguish the currently mixed distinctive-phrase candidates from "
+                "source evidence without changing retrieval, or if it must reuse the "
+                "lexical association itself as semantic authority."
             ),
             "why_not_other_layers": {
                 "candidate_retrieval": (
@@ -317,6 +317,12 @@ def _completion(
                     "it cannot measure final-admission overreach or underreach."
                 ),
             },
+            "sequencing_rationale": (
+                "This sample has both recall misses and semantic noise. Expanding "
+                "recall before semantic separation can send more candidates into the "
+                "same mixed lexical surface, so semantic relation is the safer first "
+                "boundary and retrieval recall remains the next follow-up."
+            ),
         }
     return {
         "state": "insufficient_evidence",
