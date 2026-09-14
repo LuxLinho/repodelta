@@ -1,7 +1,19 @@
 # Pull requests
 
-Title the PR around its responsibility or contract transition. Record applicable
-items only; do not fill absent concepts with template noise:
+Title the PR around its responsibility or contract transition. For new
+non-trivial RepoDelta work, begin with the focused Issue it implements:
+
+```text
+Closes #<focused-issue>
+```
+
+Use exactly one GitHub closing reference: the focused Issue that supplies this
+PR's requirements. A focused Issue has at most one active implementation PR,
+including a Draft. Other Issues do not supply focused implementation ownership;
+parent or hierarchy semantics are outside this guidance. Do not retrospectively
+add a focused Issue to work authored before this rule.
+
+Record applicable items only; do not fill absent concepts with template noise:
 
 - parent transformation, responsibility, output, sinks, authority, and region;
 - each changed derived result's provenance, scope, owner, and dependencies;
@@ -29,5 +41,5 @@ Explain why the tree remains valid if the parent stops. Unsupported or
 incomplete semantics must fail closed.
 
 Keep the PR Draft while responsibility, contracts, or a merge gate is unsettled.
-Mark ready only after auditing the final tree. If the parent remains open, link
-a stable record owning its obligations and stop conditions.
+Mark ready only after auditing the final tree. Link the focused Issue that owns
+this PR's obligations and stop conditions.

@@ -33,6 +33,21 @@ For a stable invariant, use counterexample and sink evidence, then the smallest
 machine-enforceable boundary that excludes a concrete invalid transition. Do
 not harden uncertain semantics or increase abstraction without one.
 
+## Focused Issue before PR
+
+For new non-trivial RepoDelta work, create one focused Issue before opening its
+implementation PR, and have that PR close the Issue. The Issue owns intent,
+requirements, guardrails, and verification expectations; the PR owns the
+transformation and its evidence.
+
+The focused Issue and implementation PR form one ownership pair: the PR has
+exactly one GitHub closing reference, for its focused Issue, and a focused Issue
+has at most one active implementation PR (including a Draft). Other Issues do
+not supply focused implementation ownership; parent or hierarchy semantics are
+outside this rule. Do not retrospectively create Issues for work that predates
+it. This is an authoring rule for RepoDelta itself, not a change to the
+product's support for reviewing external PRs without linked Issues.
+
 For non-trivial behavioral, responsibility, contract, data-flow, or
 cross-component changes, follow `docs/agent-change-protocol.md`. Before an
 Issue, commit, or PR, follow its corresponding guideline in `docs/`.

@@ -4,6 +4,17 @@ Use an Issue as the requirement-source contract, not as a copy of the future
 PR transition record. Describe the result and review boundary without assuming
 the implementation.
 
+## Focused Issue before PR
+
+For new non-trivial RepoDelta work, create one focused Issue before opening its
+implementation PR. That Issue is the requirement-source contract, and the PR
+that implements it has exactly one GitHub closing reference:
+`Closes #<focused-issue>`.
+
+A focused Issue has at most one active implementation PR, including a Draft.
+Other Issues do not supply focused implementation ownership; parent or
+hierarchy semantics are outside this guidance.
+
 Prefer these headings when applicable:
 
 ```text
@@ -34,6 +45,6 @@ its transformation and completion claims to Issue requirements, but must not
 copy the requirements as a second source of truth.
 
 Mention a repository path or symbol only when it is part of the required
-contract, not merely the expected implementation. An implementation PR may
-exist without an Issue when it carries a valid standalone transformation
-contract; do not invent Issue requirements after the fact.
+contract, not merely the expected implementation. Do not retrospectively create
+a focused Issue for a PR that predates this rule or rewrite an older context
+reference as ownership.

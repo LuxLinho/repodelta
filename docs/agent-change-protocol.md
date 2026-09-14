@@ -3,6 +3,15 @@
 Use this protocol for behavioral, responsibility, contract, data-flow, or
 cross-component changes.
 
+## -1. Establish a focused Issue
+
+Before mutating new non-trivial RepoDelta work, identify or create its focused
+Issue. The implementation PR has exactly one GitHub closing reference, for that
+Issue. A focused Issue has at most one active implementation PR, including a
+Draft. Other Issues do not supply focused implementation ownership; parent or
+hierarchy semantics are outside this protocol. Do not invent focused Issues for
+work that predates this rule.
+
 ## 0. Semantic execution
 
 ```
