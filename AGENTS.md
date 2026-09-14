@@ -33,32 +33,19 @@ For a stable invariant, use counterexample and sink evidence, then the smallest
 machine-enforceable boundary that excludes a concrete invalid transition. Do
 not harden uncertain semantics or increase abstraction without one.
 
-## Task-contract ownership
+## Focused Issue before PR
 
-For new RepoDelta work, every substantive, non-automated implementation PR
-has exactly one owning Task Issue. A Task Issue is the human-owned source of
-intent, requirements, guardrails, and verification expectations for that PR;
-the PR records the transformation, evidence, and acceptance state. An optional
-Parent Issue may group Task Issues and carry program-level goals or shared
-constraints, but never directly owns an implementation PR.
+For new non-trivial RepoDelta work, create one focused Issue before opening its
+implementation PR, and have that PR close the Issue. The Issue owns intent,
+requirements, guardrails, and verification expectations; the PR owns the
+transformation and its evidence.
 
-A Task Issue has at most one active implementation PR. A closed or abandoned
-attempt remains historical evidence. Before a replacement PR starts, record an
-explicit ownership transfer on the Task Issue and identify the replaced PR in
-the replacement PR. Do not allow two PRs to claim the same Task Issue at once.
-
-Use `Closes #<task-issue>` for the owning relation. A PR may additionally use
-`Tracks #<parent-issue>` for program context, but that link is not requirement
-authority. The exact authoring grammar, exemptions, replacement record, and
-grandfathering policy are defined in the Issue and PR guides.
-
-The only exemption categories are `format-only`, `generated-artifact-sync`,
-and `release-metadata` produced from an already accepted release decision. An
-exempt PR must declare its category and boundary. Dependency, runtime,
-configuration, schema, workflow-method, or evaluation-authority changes are
-never exempt. A human- or agent-designed change is substantive even when a bot
-submits it. Do not retroactively invent Task Issues for work authored before
-this policy; preserve those links as grandfathered historical facts.
+If an existing Issue is broader than the change, create a short child Issue
+with `Parent: #<parent-issue>` first. The PR closes the child and may also say
+`Tracks #<parent-issue>` for context. If no parent exists, create the focused
+Issue directly. Do not retrospectively create Issues for work that predates
+this rule. This is an authoring rule for RepoDelta itself, not a change to the
+product's support for reviewing external PRs without linked Issues.
 
 For non-trivial behavioral, responsibility, contract, data-flow, or
 cross-component changes, follow `docs/agent-change-protocol.md`. Before an

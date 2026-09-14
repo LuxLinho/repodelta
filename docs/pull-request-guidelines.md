@@ -1,25 +1,16 @@
 # Pull requests
 
-Title the PR around its responsibility or contract transition. For a new
-substantive RepoDelta implementation PR, begin with exactly one owning Task
-Issue reference:
+Title the PR around its responsibility or contract transition. For new
+non-trivial RepoDelta work, begin with the focused Issue it implements:
 
 ```text
-Closes #<task-issue>
-Tracks #<parent-issue>     # optional program context
-Replaces #<abandoned-pr>   # optional ownership transfer
+Closes #<focused-issue>
+Tracks #<parent-issue>     # optional context for a child Issue
 ```
 
-`Closes` names requirement authority. `Tracks` never substitutes for it and
-must not be used to close a Parent Issue. A Task Issue may have at most one
-active PR; do not open a second PR until an abandoned attempt has an explicit
-replacement record on the Task Issue. A grandfathered or approved mechanically
-generated non-semantic PR may omit `Closes`, but must state either
-`Grandfathered: <reason>` or `Exemption: <category and boundary>`. The only
-exemption categories are `format-only`, `generated-artifact-sync`, and
-`release-metadata`; see the Issue guide for their boundaries. Dependency,
-runtime, configuration, schema, workflow-method, evaluation-authority, and
-agent-designed changes still require a Task Issue.
+If a parent Issue is broader than this PR, create a focused child Issue first;
+do not close the parent from the PR. Do not retrospectively add a focused Issue
+to work authored before this rule.
 
 Record applicable items only; do not fill absent concepts with template noise:
 
@@ -49,6 +40,5 @@ Explain why the tree remains valid if the parent stops. Unsupported or
 incomplete semantics must fail closed.
 
 Keep the PR Draft while responsibility, contracts, or a merge gate is unsettled.
-Mark ready only after auditing the final tree. If a Parent Issue remains open,
-link the stable child Task Issue that owns this PR's obligations and stop
-conditions; do not promote the parent link into requirement authority.
+Mark ready only after auditing the final tree. If a parent remains open, link
+the focused child Issue that owns this PR's obligations and stop conditions.

@@ -3,32 +3,16 @@
 Use this protocol for behavioral, responsibility, contract, data-flow, or
 cross-component changes.
 
-## -1. Establish Task ownership
+## -1. Establish a focused Issue
 
-Before mutating a new substantive RepoDelta implementation, establish one
-human-owned Task Issue and classify any Parent Issue separately. The Task Issue
-owns the requirements contract; the implementation PR will own the transition
-record. Record the intended owning reference as `Closes #<task-issue>`, and an
-optional program reference as `Tracks #<parent-issue>`.
+Before mutating new non-trivial RepoDelta work, identify or create its focused
+Issue. The implementation PR closes that Issue. When an existing parent Issue
+is broader than the work, create a child Issue with `Parent: #<parent-issue>`
+before the PR; the PR closes the child and may track the parent for context.
 
-Do not start a second active PR for the same Task Issue. If an attempt is
-abandoned, record its replacement on the Task Issue before starting the
-successor PR, then use `Replaces #<old-pr>` in the successor. If discovery
-shows that one PR contains independently reviewable contracts, stop before
-merge, split the work into Task Issues, and give each resulting PR its own
-owner. Do not solve the split by adding a second requirements source to the
-same PR.
-
-Parent Issues may remain open while child Task Issues execute. Their role is
-aggregation and cross-task constraints, not direct implementation authority.
-Pre-policy PRs remain grandfathered historical records; do not create
-requirements after the fact merely to satisfy this protocol.
-
-Only the `format-only`, `generated-artifact-sync`, and `release-metadata`
-categories defined in the Issue guide may proceed without a Task Issue. Their
-PR records the category and why no behavioral, contractual,
-evaluation-authority, or repository-method change is present. Dependency,
-runtime, configuration, schema, or agent-designed work is not exempt.
+If discovery shows that a PR contains unrelated contracts, pause and split the
+work into focused Issues before merge. Do not invent focused Issues for work
+that predates this rule.
 
 ## 0. Semantic execution
 
