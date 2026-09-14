@@ -8,10 +8,10 @@ Closes #<focused-issue>
 ```
 
 Use exactly one GitHub closing reference: the focused Issue that supplies this
-PR's requirements. A focused Issue may have no more than one active
-implementation PR, including a Draft. Other Issues may be mentioned as context,
-but hierarchy semantics are outside this guidance. Do not retrospectively add a
-focused Issue to work authored before this rule.
+PR's requirements. A focused Issue has at most one active implementation PR,
+including a Draft. Other Issues do not supply focused implementation ownership;
+parent or hierarchy semantics are outside this guidance. Do not retrospectively
+add a focused Issue to work authored before this rule.
 
 Record applicable items only; do not fill absent concepts with template noise:
 

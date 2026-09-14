@@ -42,11 +42,11 @@ transformation and its evidence.
 
 The focused Issue and implementation PR form one ownership pair: the PR has
 exactly one GitHub closing reference, for its focused Issue, and a focused Issue
-may have no more than one active implementation PR (including a Draft). Other
-Issues may be mentioned as context, but hierarchy semantics are outside this
-rule. Do not retrospectively create Issues for work that predates it. This is
-an authoring rule for RepoDelta itself, not a change to the product's support
-for reviewing external PRs without linked Issues.
+has at most one active implementation PR (including a Draft). Other Issues do
+not supply focused implementation ownership; parent or hierarchy semantics are
+outside this rule. Do not retrospectively create Issues for work that predates
+it. This is an authoring rule for RepoDelta itself, not a change to the
+product's support for reviewing external PRs without linked Issues.
 
 For non-trivial behavioral, responsibility, contract, data-flow, or
 cross-component changes, follow `docs/agent-change-protocol.md`. Before an

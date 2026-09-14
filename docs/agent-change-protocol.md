@@ -7,9 +7,10 @@ cross-component changes.
 
 Before mutating new non-trivial RepoDelta work, identify or create its focused
 Issue. The implementation PR has exactly one GitHub closing reference, for that
-Issue. Do not start a second active implementation PR for the same focused
-Issue. Other Issues are context only; hierarchy semantics are outside this
-protocol. Do not invent focused Issues for work that predates this rule.
+Issue. A focused Issue has at most one active implementation PR, including a
+Draft. Other Issues do not supply focused implementation ownership; parent or
+hierarchy semantics are outside this protocol. Do not invent focused Issues for
+work that predates this rule.
 
 ## 0. Semantic execution
 

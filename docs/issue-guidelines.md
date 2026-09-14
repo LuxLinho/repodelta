@@ -11,9 +11,9 @@ implementation PR. That Issue is the requirement-source contract, and the PR
 that implements it has exactly one GitHub closing reference:
 `Closes #<focused-issue>`.
 
-A focused Issue may have no more than one active implementation PR, including a
-Draft. Other Issues may be cited as context but do not supply implementation
-ownership; formal parent or hierarchy semantics are outside this guidance.
+A focused Issue has at most one active implementation PR, including a Draft.
+Other Issues do not supply focused implementation ownership; parent or
+hierarchy semantics are outside this guidance.
 
 Prefer these headings when applicable:
 

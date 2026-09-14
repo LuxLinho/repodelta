@@ -78,6 +78,11 @@ verification expectations in their own sections. See the
 and authority mapping is documented under
 [Architecture → Semantic authority](architecture.md#semantic-authority).
 
+For new non-trivial RepoDelta work, an implementation PR closes exactly one
+focused Issue with `Closes #<issue>`. Other Issue references do not supply
+focused implementation ownership; parent or hierarchy semantics are outside the
+repository's current authoring rule.
+
 ### Structural analysis
 
 Structure-aware analysis is the live-review default. RepoDelta creates private
